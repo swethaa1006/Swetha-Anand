@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto: 900,700,400,500,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:900,700,400,500,300);
+
 h1 {
   /* UX/UI Designer + Graphic Designer */
   position: absolute;
@@ -104,8 +105,8 @@ h4 {
 .dot1 {
   /* icon circle */
   position: absolute;
-  width: 152px;
-  height: 152px;
+  width: 174px;
+  height: 174px;
   left: 828px;
   top: 52px;
   border-radius: 50%;
@@ -116,18 +117,22 @@ h4 {
 .icon {
   /* Icon */
   position: absolute;
-  width: 116px;
-  height: 115px;
-  left: 846px;
-  top: 89px;
+  width: 135px;
+  height: 103px;
+  left: 847px;
+  top: 123px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 54px;
-  line-height: 63px;
+  font-size: 24px;
+  line-height: 28px;
   text-align: center;
   letter-spacing: -0.003em;
   color: #000000;
+}
+
+.icon:hover {
+  color: #F98C0D;
 }
 
 .dot2 {
@@ -159,17 +164,6 @@ a {
 }
 
 .wb:hover {
-  /* Rectangle 672 */
-  /* position: absolute;
-width: 93px;
-height: 9px;
-left: 304px;
-top: 354px;
-
-background: #F9B310;
-border-radius: 10px; */
-  /* Web Design */
-  /* position: fixed; */
   color: #F98C0D;
 }
 
@@ -2328,4 +2322,131 @@ border-radius: 10px; */
   line-height: 169px;
   letter-spacing: -0.02em;
   color: #E20101;
+}
+
+/* Illustration */
+.i_intro {
+  position: absolute;
+  width: 469px;
+  height: 210px;
+  left: 277px;
+  top: 741px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.ii {
+  /* Gift Icon */
+  position: absolute;
+  width: 176px;
+  height: 55px;
+  left: 445px;
+  top: 1102px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.underlinei {
+  /* Rectangle 670 */
+  position: absolute;
+  width: 57px;
+  height: 9px;
+  left: 445px;
+  top: 1222px;
+  background: #EF7D3A;
+  border-radius: 10px;
+}
+
+.i_gift {
+  /* gift */
+  position: absolute;
+  width: 808px;
+  height: 251px;
+  left: 522px;
+  top: 1218px;
+  background: url(image.png);
+  border-radius: 12px;
+}
+
+.ii1 {
+  /* Lion Icon */
+  position: absolute;
+  width: 191px;
+  height: 55px;
+  left: 1067px;
+  top: 1616px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.underlinei1 {
+  /* Rectangle 671 */
+  position: absolute;
+  width: 57px;
+  height: 9px;
+  left: 1067px;
+  top: 1740px;
+  background: #EF7D3A;
+  border-radius: 10px;
+}
+
+.i_lion {
+  /* lion */
+  position: absolute;
+  width: 421px;
+  height: 405px;
+  left: 865px;
+  top: 1870px;
+  background: url(image.png);
+}
+
+.ii2 {
+  /* Icons for Ludo Star 2 */
+  position: absolute;
+  width: 431px;
+  height: 55px;
+  left: 228px;
+  top: 2255px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.underlinei2 {
+  /* Rectangle 671 */
+  position: absolute;
+  width: 57px;
+  height: 9px;
+  left: 228px;
+  top: 2377px;
+  background: #EF7D3A;
+  border-radius: 10px;
+}
+
+.i_ls {
+  /* Icons for Ludo Star 2 */
+  position: absolute;
+  width: 827.98px;
+  height: 481.74px;
+  left: 169.02px;
+  top: 2479px;
 }
