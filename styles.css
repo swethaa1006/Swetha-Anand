@@ -223,7 +223,7 @@ a {
   width: 116px;
   height: 115px;
   left: 1080px;
-  top: 512px;
+  top: 552px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -232,6 +232,10 @@ a {
   text-align: center;
   letter-spacing: -0.003em;
   color: #000000;
+}
+
+.logo:hover {
+  color: #F98C0D;
 }
 
 .dot5 {
@@ -2449,4 +2453,117 @@ a {
   height: 481.74px;
   left: 169.02px;
   top: 2479px;
+}
+
+/* Logo */
+.l_intro {
+  position: absolute;
+  width: 469px;
+  height: 210px;
+  left: 277px;
+  top: 701px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.l1 {
+  /* Presence app */
+  position: absolute;
+  width: 283px;
+  height: 56px;
+  left: 438px;
+  top: 1093px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.lp {
+  position: absolute;
+  width: 808px;
+  height: 251px;
+  left: 515px;
+  top: 1257px;
+  background: url(image.png);
+}
+
+.l2 {
+  /* Selfie */
+  position: absolute;
+  width: 118px;
+  height: 55px;
+  left: 166px;
+  top: 1544px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.ls {
+  position: absolute;
+  width: 698px;
+  height: 193px;
+  left: 166px;
+  top: 1698px;
+  background: url(image.png);
+}
+
+.l3 {
+  /* DigiElevation */
+  position: absolute;
+  width: 270px;
+  height: 55px;
+  left: 1053px;
+  top: 1897px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: right;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.ld {
+  position: absolute;
+  width: 269px;
+  height: 269px;
+  left: 1053px;
+  top: 2073px;
+  background: url(image.png);
+}
+
+.underlinei3 {
+  position: absolute;
+  width: 57px;
+  height: 9px;
+  left: 166px;
+  top: 1665px;
+  background: #EF7D3A;
+  border-radius: 10px;
+}
+
+.underlinei4 {
+  /* Rectangle 671 */
+  position: absolute;
+  width: 57px;
+  height: 9px;
+  left: 1057px;
+  top: 2025px;
+  background: #EF7D3A;
+  border-radius: 10px;
 }
