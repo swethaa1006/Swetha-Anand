@@ -256,7 +256,7 @@ a {
   width: 116px;
   height: 33px;
   left: 54px;
-  top: 367px;
+  top: 397px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -265,6 +265,10 @@ a {
   text-align: center;
   letter-spacing: -0.003em;
   color: #000000;
+}
+
+.poster:hover {
+  color: #F98C0D;
 }
 
 .dot6 {
@@ -354,6 +358,10 @@ a {
   color: #000000;
 }
 
+.resume:hover {
+  color: #F98C0D;
+}
+
 .dot9 {
   /* email bg */
   position: absolute;
@@ -372,7 +380,7 @@ a {
   width: 194px;
   height: 115px;
   left: 1041px;
-  top: 1244px;
+  top: 1289px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -381,6 +389,11 @@ a {
   text-align: center;
   letter-spacing: -0.003em;
   color: #000000;
+}
+
+.email:hover {
+  text: aaa;
+  color: #F98C0D;
 }
 
 .dot10 {
@@ -2538,6 +2551,43 @@ a {
   color: #000000;
 }
 
+.l4 {
+  /* CreativeGray */
+  position: absolute;
+  width: 118px;
+  height: 55px;
+  left: 166px;
+  top: 2275px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.underlinei5 {
+  /* Rectangle 671 */
+  position: absolute;
+  width: 57px;
+  height: 9px;
+  left: 166px;
+  top: 2400px;
+  background: #EF7D3A;
+  border-radius: 10px;
+}
+
+.cg {
+  position: absolute;
+  width: 528px;
+  height: 396px;
+  left: 166px;
+  top: 2408px;
+  background: url(image.png);
+  mix-blend-mode: multiply;
+}
+
 .ld {
   position: absolute;
   width: 269px;
@@ -2566,4 +2616,75 @@ a {
   top: 2025px;
   background: #EF7D3A;
   border-radius: 10px;
+}
+
+/* posters */
+.pt {
+  position: absolute;
+  width: 443px;
+  height: 660px;
+  left: 445px;
+  top: 1257px;
+}
+
+.pt_text {
+  /* Trible Tattoo */
+  position: absolute;
+  width: 262px;
+  height: 55px;
+  left: 1067px;
+  top: 1616px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.pt1 {
+  /* image 45 */
+  position: absolute;
+  width: 313px;
+  height: 467px;
+  left: 1070px;
+  top: 1780px;
+  background: url(image.png);
+}
+
+.pt_text1 {
+  /* My Swiss trip Archieve */
+  position: absolute;
+  width: 467px;
+  height: 55px;
+  left: 228px;
+  top: 2072px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.underlinei6 {
+  position: absolute;
+  width: 57px;
+  height: 9px;
+  left: 228px;
+  top: 2205px;
+  background: #EF7D3A;
+  border-radius: 10px;
+}
+
+.pt2 {
+  /* image 46 */
+  position: absolute;
+  width: 492px;
+  height: 737px;
+  left: 228px;
+  top: 2250px;
+  background: url(image.png);
 }
