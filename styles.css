@@ -289,7 +289,7 @@ a {
   width: 116px;
   height: 115px;
   left: 252px;
-  top: 540px;
+  top: 560px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -298,6 +298,10 @@ a {
   text-align: center;
   letter-spacing: -0.003em;
   color: #000000;
+}
+
+.other:hover {
+  color: #F98C0D;
 }
 
 .dot7 {
@@ -2686,5 +2690,133 @@ a {
   height: 737px;
   left: 228px;
   top: 2250px;
+  background: url(image.png);
+}
+
+/* other */
+.o{
+  /* Book Design */
+
+
+position: absolute;
+width: 261px;
+height: 56px;
+left: 445px;
+top: 1102px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+
+.o1{
+  /* image 50 */
+
+
+position: absolute;
+width: 401px;
+height: 295px;
+left: 445px;
+top: 1267px;
+
+background: url(image.png);
+}
+
+.o2{
+  /* image 49 */
+
+
+position: absolute;
+width: 433px;
+height: 317px;
+left: 756px;
+top: 1361px;
+
+background: url(image.png);
+}
+
+
+.o_text{
+  /* Type Design */
+
+
+position: absolute;
+width: 262px;
+height: 55px;
+left: 1039px;
+top: 1710px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+
+.underlinei7{
+  position: absolute;
+  width: 57px;
+  height: 9px;
+  left: 1039px;
+  top: 1832px;
+  background: #EF7D3A;
+  border-radius: 10px;
+}
+
+.o3{
+  /* image 47 */
+
+
+position: absolute;
+width: 330px;
+height: 328px;
+left: 1039px;
+top: 1928px;
+
+background: url(image.png);
+}
+
+.o_text1{
+  /* Experimental design */
+
+
+position: absolute;
+width: 467px;
+height: 55px;
+left: 228px;
+top: 2138px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+
+.o_text1:hover {
+  color: #F98C0D;
+}
+
+.o4{
+  /* image 51 */
+
+
+  position: absolute;
+  width: 698px;
+  height: 343px;
+  left: 228px;
+  top: 2249px;
+
   background: url(image.png);
 }
