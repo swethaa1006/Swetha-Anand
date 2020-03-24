@@ -1,27 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:900,700,400,500,300);
-/* ----------------------------------------------mobile view  ----------------------------------------------*/
-@media only screen and (max-width: 700px) {
-  body {
-    background-color: blue;
-  }
 
-  h1 {
-    /* UX/UI Designer + Graphic Designer */
-    position: absolute;
-    width: 173px;
-    height: 141px;
-    left: 11px;
-    top: -50px;
-
-    font-size: 34px;
-    line-height: 57px;
-
-  }
-  h1.sticky {
-    padding: 10px;
-  }
+* {
+  margin: 0;
+  padding: 0;
 }
 
+/*
+.wrapper {
+  width: 100%;
+} */
+/* home */
+/* destop view */
 h1 {
   /* UX/UI Designer + Graphic Designer */
   position: absolute;
@@ -467,6 +456,201 @@ a {
   color: #000000;
 }
 
+/* ----------------------------------------------mobile view  ----------------------------------------------*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+    padding: 10px;
+  }
+
+  .wrapper {
+    padding: 10px;
+  }
+
+  h1 {
+    /* UX/UI Designer + Graphic Designer */
+    position: absolute;
+    width: 365px;
+    height: 159px;
+    left: 67px;
+    top: 52px;
+    left: 11px;
+    top: -50px;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+  }
+
+  /* h1.sticky {
+    padding: 10px;
+  } */
+  .swetha {
+    position: absolute;
+    width: 266.95px;
+    height: 284.44px;
+    left: 117px;
+    top: 93px;
+  }
+
+  /* Illustration */
+  .dot1 {
+    /* icon circle */
+    position: absolute;
+    width: 174px;
+    height: 174px;
+    left: 297px;
+    top: 17px;
+    background: #FFFFFF;
+  }
+
+  .icon {
+    /* Illustrations */
+    position: absolute;
+    width: 135px;
+    height: 103px;
+    left: 316px;
+    top: 88px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  .dot2 {
+    /* web design bg */
+    position: absolute;
+    width: 167px;
+    height: 167px;
+    left: 33px;
+    top: 202px;
+    background: #FFFFFF;
+  }
+
+  .wb {
+    /* Web Design */
+    position: absolute;
+    width: 147.86px;
+    height: 92.2px;
+    left: 44.49px;
+    top: 233.81px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 39px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  .dot3 {
+    /* mobile design bg */
+    position: absolute;
+    width: 203px;
+    height: 203px;
+    left: 272px;
+    top: 304px;
+    background: #FFFFFF;
+  }
+
+  .mb {
+    /* Mobile Design */
+    position: absolute;
+    width: 173.49px;
+    height: 102.84px;
+    left: 287.2px;
+    top: 357.5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 43px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  .dot4 {
+    /* logo bg */
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 153px;
+    top: 370px;
+    background: #FFFFFF;
+  }
+
+  .logo {
+    /* Logo */
+    position: absolute;
+    width: 68px;
+    height: 32px;
+    left: 164px;
+    top: 395px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  .dot5{
+    /* poster bg */
+
+
+position: absolute;
+width: 116px;
+height: 116px;
+left: 35px;
+top: 953px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.09);
+  }
+
+  .poster{
+    /* Posters */
+
+
+position: absolute;
+width: 116px;
+height: 33px;
+left: 36px;
+top: 988px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+letter-spacing: -0.003em;
+
+color: #000000;
+
+  }
+
+  .dot6{
+    /* other bg */
+
+
+position: absolute;
+width: 116px;
+height: 116px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+  }
+}
+
+/* Website page */
 .rr {
   /* 2017 Chrome Extention Rapid Redeem */
   position: absolute;
@@ -2716,74 +2900,59 @@ a {
 }
 
 /* other */
-.o{
+.o {
   /* Book Design */
-
-
-position: absolute;
-width: 261px;
-height: 56px;
-left: 445px;
-top: 1102px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 56px;
-letter-spacing: -0.02em;
-
-color: #000000;
+  position: absolute;
+  width: 261px;
+  height: 56px;
+  left: 445px;
+  top: 1102px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #000000;
 }
 
-.o1{
+.o1 {
   /* image 50 */
-
-
-position: absolute;
-width: 401px;
-height: 295px;
-left: 445px;
-top: 1267px;
-
-background: url(image.png);
+  position: absolute;
+  width: 401px;
+  height: 295px;
+  left: 445px;
+  top: 1267px;
+  background: url(image.png);
 }
 
-.o2{
+.o2 {
   /* image 49 */
-
-
-position: absolute;
-width: 433px;
-height: 317px;
-left: 756px;
-top: 1361px;
-
-background: url(image.png);
+  position: absolute;
+  width: 433px;
+  height: 317px;
+  left: 756px;
+  top: 1361px;
+  background: url(image.png);
 }
 
-
-.o_text{
+.o_text {
   /* Type Design */
-
-
-position: absolute;
-width: 262px;
-height: 55px;
-left: 1039px;
-top: 1710px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 56px;
-letter-spacing: -0.02em;
-
-color: #000000;
+  position: absolute;
+  width: 262px;
+  height: 55px;
+  left: 1039px;
+  top: 1710px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #000000;
 }
 
-.underlinei7{
+.underlinei7 {
   position: absolute;
   width: 57px;
   height: 9px;
@@ -2793,52 +2962,42 @@ color: #000000;
   border-radius: 10px;
 }
 
-.o3{
+.o3 {
   /* image 47 */
-
-
-position: absolute;
-width: 330px;
-height: 328px;
-left: 1039px;
-top: 1928px;
-
-background: url(image.png);
+  position: absolute;
+  width: 330px;
+  height: 328px;
+  left: 1039px;
+  top: 1928px;
+  background: url(image.png);
 }
 
-.o_text1{
+.o_text1 {
   /* Experimental design */
-
-
-position: absolute;
-width: 467px;
-height: 55px;
-left: 228px;
-top: 2138px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 56px;
-letter-spacing: -0.02em;
-
-color: #000000;
+  position: absolute;
+  width: 467px;
+  height: 55px;
+  left: 228px;
+  top: 2138px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #000000;
 }
 
 .o_text1:hover {
   color: #F98C0D;
 }
 
-.o4{
+.o4 {
   /* image 51 */
-
-
   position: absolute;
   width: 698px;
   height: 343px;
   left: 228px;
   top: 2249px;
-
   background: url(image.png);
 }
