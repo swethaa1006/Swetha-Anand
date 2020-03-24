@@ -460,11 +460,7 @@ a {
 @media only screen and (max-width: 600px) {
   body {
     background-color: blue;
-    padding: 10px;
-  }
-
-  .wrapper {
-    padding: 10px;
+    /* padding: 5px; */
   }
 
   h1 {
@@ -472,11 +468,9 @@ a {
     position: absolute;
     width: 365px;
     height: 159px;
-    left: 67px;
     top: 52px;
-    left: 11px;
-    top: -50px;
-    font-size: 44px;
+    left: -21px;
+    font-size: 40px;
     line-height: 52px;
     text-align: center;
   }
@@ -488,7 +482,7 @@ a {
     position: absolute;
     width: 266.95px;
     height: 284.44px;
-    left: 117px;
+    left: 100px;
     top: 93px;
   }
 
@@ -496,9 +490,9 @@ a {
   .dot1 {
     /* icon circle */
     position: absolute;
-    width: 174px;
-    height: 174px;
-    left: 297px;
+    width: 150px;
+    height: 150px;
+    left: 250px;
     top: 17px;
     background: #FFFFFF;
   }
@@ -508,8 +502,8 @@ a {
     position: absolute;
     width: 135px;
     height: 103px;
-    left: 316px;
-    top: 88px;
+    left: 258px;
+    top: 82px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -525,7 +519,7 @@ a {
     position: absolute;
     width: 167px;
     height: 167px;
-    left: 33px;
+    left: 23px;
     top: 202px;
     background: #FFFFFF;
   }
@@ -535,7 +529,7 @@ a {
     position: absolute;
     width: 147.86px;
     height: 92.2px;
-    left: 44.49px;
+    left: 34.49px;
     top: 233.81px;
     font-family: Roboto;
     font-style: normal;
