@@ -1,16 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:900,700,400,500,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:900,700,400,500,300);
 
-/* * {
-  margin: 0;
-  padding: 0;
-} */
+.bg_vec1 {
+  visibility: hidden;
+}
 
-/*
-.wrapper {
-  width: 100%;
-} */
-/* home */
-/* destop view */
 h1 {
   /* UX/UI Designer + Graphic Designer */
   position: absolute;
@@ -2823,9 +2816,11 @@ a {
     letter-spacing: -0.003em;
     color: rgba(0, 0, 0, 0.1);
   }
-.back_res{
-  margin-left: 34;
-}
+
+  .back_res {
+    margin-left: 34;
+  }
+
   .back {
     position: absolute;
     width: 34px;
@@ -3111,8 +3106,6 @@ a {
   }
 
   /* Website page */
-
-
   .rr {
     /* 2017 Chrome Extention Rapid Redeem */
     position: absolute;
@@ -3275,4 +3268,261 @@ a {
     top: 1453px;
     margin-bottom: 1em;
   }
+
+  /* rapid redeem website mobile view */
+  .bg_vec {
+    visibility: hidden;
+  }
+
+  .bg_vec1 {
+    visibility: visible;
+    position: absolute;
+    width: 145.75px;
+    height: 1711px;
+    left: 29.25px;
+    top: 0px;
+  }
+
+  h2 {
+    width: 227px;
+    height: 37px;
+    left: 46px;
+    top: 44px;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.003em;
+  }
+
+  .rr_txt {
+    /* A casual board game for everyone */
+    position: absolute;
+    width: 236px;
+    height: 19px;
+    left: 46px;
+    top: 96px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: -0.02em;
+  }
+
+  .underline {
+    /* underline */
+    position: absolute;
+    width: 31px;
+    height: 5px;
+    left: 46px;
+    top: 130px;
+  }
+
+  .bg {
+    /* intro bg */
+    position: absolute;
+    width: 267px;
+    height: 172px;
+    left: 45px;
+    top: 288px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+  }
+
+  .circle1 {
+    /* Ellipse 369 */
+    position: absolute;
+    width: 12.71px;
+    height: 12.71px;
+    left: 77.34px;
+    top: 139px;
+    border: 2px solid #13CFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .circle2 {
+    /* Ellipse 371 */
+    position: absolute;
+    width: 12.71px;
+    height: 12.71px;
+    left: 119.91px;
+    top: 139px;
+    border: 2px solid #13CFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .circle3 {
+    /* Ellipse outline */
+    position: absolute;
+    width: 12.71px;
+    height: 12.71px;
+    left: 162.48px;
+    top: 139px;
+    border: 2px solid #13CFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .line {
+    /* intro line */
+    position: absolute;
+    width: 18px;
+    height: 170px;
+    left: 65px;
+    top: 148px;
+  }
+
+  h3 {
+    /* Introduction */
+    position: absolute;
+    width: 240px;
+    height: 41px;
+    left: 63px;
+    top: 254px;
+    font-size: 43px;
+    line-height: 50px;
+    letter-spacing: -0.003em;
+  }
+
+  .rr_intro {
+    position: absolute;
+    width: 211px;
+    height: 129px;
+    left: 76px;
+    top: 315px;
+    font-weight: normal;
+    font-size: 14.5px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+  }
+
+  .rr_intro_img {
+    position: absolute;
+    width: 177.46px;
+    height: 100px;
+    left: 116px;
+    top: 488px;
+  }
+
+  .bg1 {
+    /* intro bg */
+    position: absolute;
+    width: 267px;
+    height: 172px;
+    left: 45px;
+    top: 835px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+  }
+
+  .circle4 {
+    /* Ellipse 372 */
+    position: absolute;
+    width: 12.71px;
+    height: 12.71px;
+    left: 249.16px;
+    top: 686px;
+    border: 2px solid #13CFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .styleguide_line {
+    /* Vector 3 */
+    position: absolute;
+    width: 23.79px;
+    height: 179px;
+    left: 209.5px;
+    top: 698px;
+
+  }
+
+  .filled_dot_1 {
+    /* filled_dot_1 */
+    position: absolute;
+    width: 55.29px;
+    height: 12.71px;
+    left: 164px;
+    top: 686px;
+    background: #13CFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+  }
+
+  .sg {
+    /* Style Guide */
+    position: absolute;
+    width: 240px;
+    height: 41px;
+    left: 76px;
+    top: 805px;
+    font-size: 43px;
+    line-height: 50px;
+    letter-spacing: -0.003em;
+  }
+
+  .sg_text {
+    position: absolute;
+width: 211px;
+height: 86px;
+left: 76px;
+top: 880px;
+text-align: left;
+font-size: 14.5px;
+line-height: 17px;
+letter-spacing: -0.02em;
+  }
+
+  .h4 {}
+
+  .underline1 {}
+
+  .color_code {}
+
+  .color_code1 {}
+
+  .color_code2 {}
+
+  .color_code3 {}
+
+  .color_code4 {}
+
+  .color_code5 {}
+
+  .color_code6 {}
+
+  .color_code7 {}
+
+  .color_code8 {}
+
+  .color_code9 {}
+
+  .ty {}
+
+  .underline2 {}
+
+  .ty_text {}
+
+  .ty_text1 {}
+
+  .filled_dot_2 {}
+
+  .line1 {}
+
+  .bg2 {}
+
+  .as {}
+
+  .as_text {}
+
+  .rr_home {}
+
+  .rr_stores {}
+
+  .rr_cx {}
+
+  .rr_cx1 {}
+
+  .rr_purchase {}
+
+  .rr_purchase1 {}
 }
