@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:900,700,400,500,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:900,700,400,500,300);
 
 * {
   margin: 0;
@@ -454,379 +454,6 @@ a {
   text-align: center;
   letter-spacing: -0.003em;
   color: #000000;
-}
-
-/* ----------------------------------------------mobile view  ----------------------------------------------*/
-@media only screen and (max-width: 600px) {
-
-  h1 {
-    /* UX/UI Designer + Graphic Designer */
-    position: absolute;
-    width: 273px;
-    height: 113px;
-    left: 23px;
-    top: 44px;
-    font-size: 34px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: -0.003em;
-    color: rgba(0, 0, 0, 0.1);
-  }
-
-  /* h1.sticky {
-    padding: 10px;
-  } */
-  .swetha {
-    position: absolute;
-    width: 250.05px;
-    height: 266.44px;
-    left: 28px;
-    top: 104px;
-  }
-
-  /* Illustration */
-  .dot1 {
-    /* icon circle */
-    position: absolute;
-    width: 123px;
-    height: 123px;
-    left: 181px;
-    top: 44px;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
-  }
-
-  .icon {
-    /* Illustrations */
-
-
-    position: absolute;
-    width: 101px;
-    height: 22px;
-    left: 194px;
-    top: 94px;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    letter-spacing: -0.003em;
-
-    color: #000000;
-  }
-
-  .dot2 {
-    /* web design bg */
-
-
-    position: absolute;
-    width: 115px;
-    height: 115px;
-    left: 14px;
-    top: 294px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
-  }
-
-  .wb {
-    /* Web Design */
-
-
-  position: absolute;
-  width: 102px;
-  height: 56px;
-  left: 22px;
-  top: 319px;
-  font-size: 26px;
-  line-height: 30px;
-  text-align: center;
-  letter-spacing: -0.003em;
-
-  color: #000000;
-  }
-
-  .dot3 {
-    /* mobile design bg */
-
-
-  position: absolute;
-  width: 136px;
-  height: 136px;
-  left: 175px;
-  top: 337px;
-
-  background: #FFFFFF;
-  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
-  }
-
-  .mb {
-    /* Mobile Design */
-
-
-    position: absolute;
-    width: 116px;
-    height: 49px;
-    left: 185px;
-    top: 380px;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    letter-spacing: -0.003em;
-
-    color: #000000;
-
-  }
-
-  .dot4 {
-    /* logo bg */
-
-
-    position: absolute;
-    width: 68px;
-    height: 68px;
-    left: 236px;
-    top: 218px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.12);
-  }
-
-  .logo {
-    /* Logo */
-
-
-    position: absolute;
-    width: 51.38px;
-    height: 24.18px;
-    left: 245px;
-    top: 240px;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    letter-spacing: -0.003em;
-
-    color: #000000;
-  }
-
-  .dot5{
-    /* poster bg */
-
-
-    position: absolute;
-    width: 66px;
-    height: 66px;
-    left: 1px;
-    top: 819px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.09);
-  }
-
-  .poster{
-    /* Posters */
-
-
-  position: absolute;
-  width: 54px;
-  height: 19px;
-  left: 8px;
-  top: 843px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 15px;
-  line-height: 18px;
-  text-align: center;
-  letter-spacing: -0.003em;
-
-  color: #000000;
-
-
-  }
-
-  .dot6{
-    /* other bg */
-
-
-
-    position: absolute;
-    width: 81px;
-    height: 81px;
-    left: 185px;
-    top: 914px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
-  }
-
-  .other {
-    /* Others */
-
-
-    position: absolute;
-    width: 62.1px;
-    height: 22.95px;
-    left: 195px;
-    top: 944px;
-    font-size: 17px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: -0.003em;
-
-    color: #000000;
-
-  }
-
-
-  .dot7 {
-    /* personal project bg */
-
-
-    position: absolute;
-    width: 78px;
-    height: 78px;
-    left: 85px;
-    top: 846px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.09);
-  }
-
-  .pp {
-    /* Personal Practice */
-
-
-    position: absolute;
-    width: 66px;
-    height: 33px;
-    left: 92px;
-    top: 868px;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: center;
-    letter-spacing: -0.003em;
-
-    color: #000000;
-  }
-
-  .dot8 {
-    /* Resume bg */
-
-
-    position: absolute;
-    width: 103px;
-    height: 103px;
-    left: 198px;
-    top: 1066px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
-      margin-bottom: 1em;
-  }
-
-  .resume {
-    /* Resume */
-
-
-    position: absolute;
-    width: 88px;
-    height: 22px;
-    left: 206px;
-    top: 1107px;
-
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    letter-spacing: -0.003em;
-
-    color: #000000;
-
-  }
-
-
-  .dot9 {
-    /* email bg */
-
-
-    position: absolute;
-    width: 131px;
-    height: 131px;
-    left: 42px;
-    top: 998px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
-  }
-
-.email {
-    /* Email */
-
-
-  position: absolute;
-  width: 90px;
-  height: 34px;
-  left: 63px;
-  top: 1041px;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: -0.003em;
-
-  color: #000000;
-
-  }
-
-
-
-  .dot10 {
-    /* My Summary bg */
-
-
-    position: absolute;
-    width: 291px;
-    height: 291px;
-    left: 16px;
-    top: 481px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);;
-  }
-
-  .ms {
-    /* My Summary */
-
-
-    position: absolute;
-    width: 132px;
-    height: 26px;
-    left: 94px;
-    top: 516px;
-    font-size: 22px;
-    line-height: 26px;
-    /* identical to box height */
-
-    text-align: center;
-    letter-spacing: -0.003em;
-
-    color: #000000;
-
-  }
-
-  .ms1 {
-    position: absolute;
-    width: 246px;
-    height: 166px;
-    left: 37px;
-    top: 558px;
-    font-size: 10px;
-    line-height: 12px;
-    text-align: center;
-    letter-spacing: -0.003em;
-
-    color: #000000;
-
-  }
-
-
 }
 
 /* Website page */
@@ -3179,4 +2806,380 @@ a {
   left: 228px;
   top: 2249px;
   background: url(image.png);
+}
+
+/* ----------------------------------------------mobile view  ----------------------------------------------*/
+@media only screen and (max-width: 600px) {
+  h1 {
+    /* UX/UI Designer + Graphic Designer */
+    position: absolute;
+    width: 273px;
+    height: 113px;
+    left: 23px;
+    top: 44px;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  .swetha {
+    position: absolute;
+    width: 250.05px;
+    height: 266.44px;
+    left: 28px;
+    top: 104px;
+  }
+
+  /* Illustration */
+  .dot1 {
+    /* icon circle */
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    left: 181px;
+    top: 44px;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+  }
+
+  .icon {
+    /* Illustrations */
+    position: absolute;
+    width: 101px;
+    height: 22px;
+    left: 194px;
+    top: 94px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  .dot2 {
+    /* web design bg */
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 14px;
+    top: 294px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+  }
+
+  .wb {
+    /* Web Design */
+    position: absolute;
+    width: 102px;
+    height: 56px;
+    left: 22px;
+    top: 319px;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  .dot3 {
+    /* mobile design bg */
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    left: 175px;
+    top: 337px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  .mb {
+    /* Mobile Design */
+    position: absolute;
+    width: 116px;
+    height: 49px;
+    left: 185px;
+    top: 380px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  .dot4 {
+    /* logo bg */
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 236px;
+    top: 218px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  .logo {
+    /* Logo */
+    position: absolute;
+    width: 51.38px;
+    height: 24.18px;
+    left: 245px;
+    top: 240px;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  .dot5 {
+    /* poster bg */
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 1px;
+    top: 819px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.09);
+  }
+
+  .poster {
+    /* Posters */
+    position: absolute;
+    width: 54px;
+    height: 19px;
+    left: 8px;
+    top: 843px;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  .dot6 {
+    /* other bg */
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    left: 185px;
+    top: 914px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+  }
+
+  .other {
+    /* Others */
+    position: absolute;
+    width: 62.1px;
+    height: 22.95px;
+    left: 195px;
+    top: 944px;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  .dot7 {
+    /* personal project bg */
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 85px;
+    top: 846px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.09);
+  }
+
+  .pp {
+    /* Personal Practice */
+    position: absolute;
+    width: 66px;
+    height: 33px;
+    left: 92px;
+    top: 868px;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  .dot8 {
+    /* Resume bg */
+    position: absolute;
+    width: 103px;
+    height: 103px;
+    left: 198px;
+    top: 1066px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1em;
+  }
+
+  .resume {
+    /* Resume */
+    position: absolute;
+    width: 88px;
+    height: 22px;
+    left: 206px;
+    top: 1107px;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  .dot9 {
+    /* email bg */
+    position: absolute;
+    width: 131px;
+    height: 131px;
+    left: 42px;
+    top: 998px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  .email {
+    /* Email */
+    position: absolute;
+    width: 90px;
+    height: 34px;
+    left: 63px;
+    top: 1041px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  .dot10 {
+    /* My Summary bg */
+    position: absolute;
+    width: 291px;
+    height: 291px;
+    left: 16px;
+    top: 481px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+    ;
+  }
+
+  .ms {
+    /* My Summary */
+    position: absolute;
+    width: 132px;
+    height: 26px;
+    left: 94px;
+    top: 516px;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  .ms1 {
+    position: absolute;
+    width: 246px;
+    height: 166px;
+    left: 37px;
+    top: 558px;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  /* Website page */
+  .back {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    top: 27px;
+  }
+
+  .rr {
+    /* 2017 Chrome Extention Rapid Redeem */
+    position: absolute;
+    width: 142px;
+    height: 61px;
+    left: 71px;
+    top: 65px;
+    font-size: 17.5px;
+    line-height: 21px;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  .rr_img {
+    /* RR */
+    position: absolute;
+    width: 177.46px;
+    height: 100px;
+    left: 58px;
+    top: 141px;
+  }
+
+  .gr {
+    /* 2016 Fashion Boutique GypsyRoute */
+    width: 139px;
+    height: 61px;
+    left: 147px;
+    top: 299px;
+    font-size: 17.5px;
+    line-height: 21px;
+    letter-spacing: -0.003em;
+  }
+
+  .gr_img {
+    /* GypsyRoute */
+    width: 177.46px;
+    height: 100px;
+    left: 133px;
+    top: 378px;
+  }
+
+  .mf {
+    width: 169px;
+    height: 61px;
+    left: 51px;
+    top: 536px;
+    font-size: 17.5px;
+    line-height: 21px;
+    letter-spacing: -0.003em;
+  }
+
+  .mf_img {
+    width: 177.46px;
+    height: 100px;
+    left: 38px;
+    top: 615px;
+  }
+
+  .df {
+    width: 177px;
+    height: 62px;
+    left: 107px;
+    top: 773px;
+    font-size: 17.5px;
+    line-height: 21px;
+    letter-spacing: -0.003em;
+  }
+
+  .df_img {
+    width: 177.46px;
+    height: 100px;
+    left: 94px;
+    top: 853px;
+    margin-bottom: 1em;
+  }
 }
