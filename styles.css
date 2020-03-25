@@ -1,9 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:900,700,400,500,300);
 
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 
 /*
 .wrapper {
@@ -2823,6 +2823,18 @@ a {
     letter-spacing: -0.003em;
     color: rgba(0, 0, 0, 0.1);
   }
+.back_res{
+  margin-left: 34;
+}
+  .back {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 20px;
+    top: 27px;
+    position: -webkit-sticky;
+    position: sticky;
+  }
 
   .swetha {
     position: absolute;
@@ -3099,13 +3111,7 @@ a {
   }
 
   /* Website page */
-  .back {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 20px;
-    top: 27px;
-  }
+
 
   .rr {
     /* 2017 Chrome Extention Rapid Redeem */
