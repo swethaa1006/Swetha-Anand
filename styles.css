@@ -3433,7 +3433,6 @@ a {
     height: 179px;
     left: 209.5px;
     top: 698px;
-
   }
 
   .filled_dot_1 {
@@ -3462,67 +3461,299 @@ a {
 
   .sg_text {
     position: absolute;
-width: 211px;
-height: 86px;
-left: 76px;
-top: 880px;
-text-align: left;
-font-size: 14.5px;
-line-height: 17px;
-letter-spacing: -0.02em;
+    width: 211px;
+    height: 86px;
+    left: 76px;
+    top: 880px;
+    text-align: left;
+    font-size: 14.5px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
   }
 
-  .h4 {}
+  h4 {
+    position: absolute;
+    width: 51px;
+    height: 15px;
+    left: 59px;
+    top: 1035px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+  }
 
-  .underline1 {}
+  .underline1 {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 61px;
+    top: 1075px;
+    background: #EF7D3A;
+    border-radius: 10px;
+  }
 
-  .color_code {}
+  .color_code {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 59.33px;
+    top: 1095.04px;
+    background: #DB333D;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
 
-  .color_code1 {}
+  .color_code1 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 109.75px;
+    top: 1095.04px;
+    background: #BE2930;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
 
-  .color_code2 {}
+  .color_code2 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 160.17px;
+    top: 1095.04px;
+    background: #821516;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
 
-  .color_code3 {}
+  .color_code3 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 210.59px;
+    top: 1095.04px;
+    background: #DB333D;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
 
-  .color_code4 {}
+  .color_code4 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 261.02px;
+    top: 1095.04px;
+    background: #F7C402;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
 
-  .color_code5 {}
+  .color_code5 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 59.33px;
+    top: 1148.47px;
+    background: #234CAD;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
 
-  .color_code6 {}
+  .color_code6 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 109.75px;
+    top: 1148.47px;
+    background: #FC1B33;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
 
-  .color_code7 {}
+  .color_code7 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 160.17px;
+    top: 1148.47px;
+    background: #262626;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
 
-  .color_code8 {}
+  .color_code8 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 210.59px;
+    top: 1148.47px;
+    background: #908F8F;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
 
-  .color_code9 {}
+  .color_code9 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 261.02px;
+    top: 1148.47px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
 
-  .ty {}
+  .ty {
+    /* Typogrphy */
+    position: absolute;
+    width: 73px;
+    height: 15px;
+    left: 189px;
+    top: 1217px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: -0.02em;
+  }
 
-  .underline2 {}
+  .underline2 {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 189px;
+    top: 1258px;
+    background: #EF7D3A;
+    border-radius: 10px;
+  }
 
-  .ty_text {}
+  .ty_text {
+    /* Arial */
+    position: absolute;
+    width: 79px;
+    height: 30px;
+    left: 183px;
+    top: 1239px;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: right;
+    letter-spacing: -0.02em;
+  }
 
-  .ty_text1 {}
+  .ty_text1 {
+    position: absolute;
+    width: 73px;
+    height: 33px;
+    left: 189px;
+    top: 1289px;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: right;
+    letter-spacing: -0.02em;
+  }
 
-  .filled_dot_2 {}
+  .filled_dot_2 {
+    position: absolute;
+    width: 97.87px;
+    height: 12.71px;
+    left: 77.34px;
+    top: 1420px;
+  }
 
-  .line1 {}
+  .bg2 {
+    /* All screens */
+    position: absolute;
+    width: 267px;
+    height: 172px;
+    left: 45px;
+    top: 1582px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+  }
 
-  .bg2 {}
+  .line3 {
+    position: absolute;
+    width: 18.33px;
+    height: 190px;
+    left: 152px;
+    top: 1433px;
+  }
 
-  .as {}
+  .as {
+    /* All Screens */
+    position: absolute;
+    width: 222px;
+    height: 40px;
+    left: 53px;
+    top: 1579px;
+    font-size: 43px;
+    line-height: 50px;
+    letter-spacing: -0.003em;
+    color: rgba(0, 0, 0, 0.1);
+  }
 
-  .as_text {}
+  .as_text {
+    position: absolute;
+    width: 211px;
+    height: 65px;
+    left: 73px;
+    top: 1644px;
+    font-size: 14.5px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+  }
 
-  .rr_home {}
+  .rr_home {
+    /* rr_home */
+    position: absolute;
+    width: 230px;
+    height: 159.91px;
+    left: 45px;
+    top: 1782px;
+  }
 
-  .rr_stores {}
+  .rr_stores {
+    /* rr_stores */
+    position: absolute;
+    width: 229.13px;
+    height: 159.91px;
+    left: 45px;
+    top: 1960px;
+  }
 
-  .rr_cx {}
+  .rr_cx {
+    /* rr_cx */
+    position: absolute;
+    width: 229.13px;
+    height: 159.91px;
+    left: 45px;
+    top: 2138px;
+  }
 
-  .rr_cx1 {}
+  .rr_cx1 {
+    /* rr_cx1 */
+    position: absolute;
+    width: 229.13px;
+    height: 159.91px;
+    left: 45px;
+    top: 2316px;
+  }
 
-  .rr_purchase {}
+  .rr_purchase {
+    /* rr_purchase */
+    position: absolute;
+    width: 229.13px;
+    height: 159.91px;
+    left: 46px;
+    top: 2494px;
+  }
 
-  .rr_purchase1 {}
+  .rr_purchase1 {
+    /* rr_purchase1 */
+    position: absolute;
+    width: 229.13px;
+    height: 159.91px;
+    left: 45px;
+    top: 2672px;
+    margin-bottom: 1em;
+  }
 }
