@@ -4007,4 +4007,114 @@ a {
     top: 2265px;
     margin-bottom: 1em;
   }
+
+  /* DigiFutura */
+  .bg_vec {
+    visibility: hidden;
+  }
+
+  .bg_vec1 {
+    visibility: visible;
+    height: auto;
+  }
+
+  .df2 {
+    position: absolute;
+    width: 161px;
+    height: 37px;
+    left: 46px;
+    top: 44px;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.003em;
+  }
+
+  .color_code20 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 59.33px;
+    top: 1095.04px;
+    background: #26BAFD;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
+
+  .color_code21 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 109.75px;
+    top: 1095.04px;
+    background: #535353;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
+
+  .color_code22 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 160.17px;
+    top: 1095.04px;
+    background: #000000;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
+
+  .color_code23 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 210.59px;
+    top: 1095.04px;
+    background: #F8F8F8;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
+
+  .color_code24 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 261.02px;
+    top: 1095.04px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
+
+  .df1_text {
+    /* Roboto */
+    position: absolute;
+    width: 112px;
+    height: 34px;
+    left: 150px;
+    top: 1186px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    letter-spacing: -0.02em;
+  }
+
+  .df1_text1 {
+    position: absolute;
+    width: 122px;
+    height: 37px;
+    left: 140px;
+    top: 1236px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    letter-spacing: -0.02em;
+  }
+
+  .df_home {
+    position: absolute;
+    width: 230px;
+    height: 625.19px;
+    left: 45px;
+    top: 1799px;
+    margin-bottom: 1em;
+  }
 }
