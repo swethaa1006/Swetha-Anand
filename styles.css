@@ -4371,7 +4371,6 @@ a {
 
   .bg_vec1 {
     visibility: visible;
-    height: 1813px;
   }
 
   .ls1 {
@@ -4817,7 +4816,7 @@ a {
 
   .bg_vec1 {
     visibility: visible;
-    height: auto;
+
   }
 
   .wx {
@@ -4981,6 +4980,7 @@ a {
 
   .bg_vec1 {
     visibility: visible;
+
   }
 
   .st1 {
@@ -5106,7 +5106,7 @@ a {
 
   .bg_vec1 {
     visibility: visible;
-    height: auto;
+
   }
 
   .d {
@@ -5352,7 +5352,7 @@ a {
 
   .bg_vec1 {
     visibility: visible;
-    width: inherit;
+
   }
 
   .i_intro {
@@ -5474,5 +5474,169 @@ a {
     height: 150.69px;
     left: 19px;
     top: 1018px;
+  }
+
+  /* logo Mobile View */
+  .bg_vec {
+    visibility: hidden;
+  }
+
+  .bg_vec1 {
+    visibility: visible;
+  }
+
+  .l_intro {
+    position: absolute;
+    width: 211px;
+    height: 102px;
+    left: 76px;
+    top: 331px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.5px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .l1 {
+    /* Presence app */
+    position: absolute;
+    width: 96px;
+    height: 15px;
+    left: 59px;
+    top: 529px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .underlinei {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 59px;
+    top: 570px;
+    background: #EF7D3A;
+    border-radius: 10px;
+  }
+
+  .lp {
+    position: absolute;
+  width: 234px;
+  height: 73px;
+  left: 14px;
+  top: 579px;
+  mix-blend-mode: multiply;
+  border-radius: 12px;
+  }
+
+  .l2 {
+    /* Selfie */
+    position: absolute;
+    width: 40px;
+    height: 15px;
+    left: 140px;
+    top: 708px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .underlinei3 {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 141px;
+    top: 748px;
+    background: #EF7D3A;
+    border-radius: 10px;
+  }
+
+  .ls {
+    position: absolute;
+    width: 186px;
+    height: 51px;
+    left: 129px;
+    top: 750px;
+  }
+
+  .l3 {
+    /* DigiElevation */
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 59px;
+    top: 870px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .underlinei4 {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 61px;
+    top: 910px;
+    background: #EF7D3A;
+    border-radius: 10px;
+  }
+
+  .ld {
+    position: absolute;
+    width: 101px;
+    height: 101px;
+    left: 59px;
+    top: 921px;
+    border-radius: 12px;
+  }
+
+  .l4 {
+    /* CreativeGray */
+    position: absolute;
+    width: 90px;
+    height: 15px;
+    left: 134px;
+    top: 1081px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .underlinei5 {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 134px;
+    top: 1120px;
+    background: #EF7D3A;
+    border-radius: 10px;
+  }
+
+  .cg {
+    position: absolute;
+    width: 169px;
+    height: 127px;
+    left: 91px;
+    top: 1113px;
   }
 }
