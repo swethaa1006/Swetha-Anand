@@ -4399,21 +4399,37 @@ letter-spacing: -0.02em;
 
   .sg_text1 {
     position: absolute;
-    width: 240px;
-    height: 41px;
-    left: 53px;
-    top: 955px;
-    font-size: 43px;
-    line-height: 50px;
-    letter-spacing: -0.003em;
+  width: 211px;
+  height: 86px;
+  left: 76px;
+  top: 1034px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.5px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+
+  color: #000000;
   }
+
+
 
   .sg1 {
     position: absolute;
-    width: 211px;
-    height: 86px;
-    left: 76px;
-    top: 1034px;
+width: 240px;
+height: 41px;
+left: 53px;
+top: 975px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 43px;
+line-height: 50px;
+letter-spacing: -0.003em;
+
+color: rgba(0, 0, 0, 0.1);
   }
 
   .cr {
