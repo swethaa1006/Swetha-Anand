@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 .bg_vec1 {
   visibility: hidden;
@@ -4347,6 +4348,10 @@ a {
     top: 487px;
   }
 
+  .ls_intro_img {
+    visibility: hidden;
+  }
+
   .bg3 {
     /* intro bg */
     position: absolute;
@@ -4757,7 +4762,7 @@ a {
 
   .bg_vec1 {
     visibility: visible;
-    height: 300px;
+    height: auto;
   }
 
   .wx {
@@ -4914,5 +4919,128 @@ a {
     color: #000000;
   }
 
-  /* .ls_qe{} */
+  /* Square Tack Mobile view */
+  .bg_vec {
+    visibility: hidden;
+  }
+
+  .bg_vec1 {
+    visibility: visible;
+  }
+
+  .st1 {
+    /* Square Tack */
+    position: absolute;
+    width: 189px;
+    height: 37px;
+    left: 46px;
+    top: 44px;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.003em;
+    color: #FF013D;
+  }
+
+  .color_code45 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 59.33px;
+    top: 1219.04px;
+    background: #FF013D;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
+
+  .color_code46 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 109.75px;
+    top: 1219.04px;
+    background: #2E2E2E;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
+
+  .color_code47 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 160.17px;
+    top: 1219.04px;
+    background: #515152;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
+
+  .color_code48 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 210.59px;
+    top: 1219.04px;
+    background: #E8E8E8;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
+
+  .color_code49 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 261.02px;
+    top: 1219.04px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
+
+  .st_text {
+    position: absolute;
+    width: 185px;
+    height: 38px;
+    left: 77px;
+    top: 1330px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .st_text1 {
+    position: absolute;
+    width: 184px;
+    height: 38px;
+    left: 78px;
+    top: 1380px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .st_text2 {
+    position: absolute;
+    width: 184px;
+    height: 38px;
+    left: 78px;
+    top: 1435px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
 }
