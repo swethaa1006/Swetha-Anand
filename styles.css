@@ -1535,6 +1535,61 @@ a {
   border-radius: 12px;
 }
 
+.color_code60 {
+  position: absolute;
+  width: 94px;
+  height: 94px;
+  left: 137px;
+  top: 1983px;
+  background: #019FF3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+.color_code61 {
+  position: absolute;
+  width: 94px;
+  height: 94px;
+  left: 254px;
+  top: 1983px;
+  background: #43A647;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+.color_code62 {
+  position: absolute;
+  width: 94px;
+  height: 94px;
+  left: 371px;
+  top: 1983px;
+  background: #252525;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+.color_code63 {
+  position: absolute;
+  width: 94px;
+  height: 94px;
+  left: 488px;
+  top: 1983px;
+  background: #676767;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+.color_code64 {
+  position: absolute;
+  width: 94px;
+  height: 94px;
+  left: 605px;
+  top: 1983px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
 .rr_txt {
   /* A casual board game for everyone */
   position: absolute;
@@ -5042,5 +5097,90 @@ a {
     text-align: right;
     letter-spacing: -0.02em;
     color: #000000;
+  }
+
+  /* Danavanthri Mobile View */
+  .bg_vec {
+    visibility: hidden;
+  }
+
+  .bg_vec1 {
+    visibility: visible;
+    height: auto;
+  }
+
+  .d {
+    position: absolute;
+    width: 189px;
+    height: 37px;
+    left: 46px;
+    top: 44px;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.003em;
+    color: #019FF3;
+  }
+
+  .color_code60 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 59.33px;
+    top: 1219.04px;
+    background: #019FF3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
+
+  .color_code61 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 109.75px;
+    top: 1219.04px;
+    background: #43A647;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
+
+  .color_code62 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 160.17px;
+    top: 1219.04px;
+    background: #252525;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
+
+  .color_code63 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 210.59px;
+    top: 1219.04px;
+    background: #676767;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
+
+  .color_code64 {
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 261.02px;
+    top: 1219.04px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    position: absolute;
+    width: 40.42px;
+    height: 40.42px;
+    left: 261.02px;
+    top: 1219.04px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
   }
 }
