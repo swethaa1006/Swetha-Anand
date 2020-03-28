@@ -4397,7 +4397,7 @@ letter-spacing: -0.02em;
     border-radius: 10px;
   }
 
-  .sg1 {
+  .sg_text1 {
     position: absolute;
     width: 240px;
     height: 41px;
@@ -4408,7 +4408,7 @@ letter-spacing: -0.02em;
     letter-spacing: -0.003em;
   }
 
-  .sg_text1 {
+  .sg1 {
     position: absolute;
     width: 211px;
     height: 86px;
@@ -4745,4 +4745,6 @@ letter-spacing: -0.02em;
     top: 2640px;
     margin-bottom: 1em;
   }
+
+
 }
