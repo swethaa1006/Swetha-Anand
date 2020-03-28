@@ -5344,4 +5344,135 @@ a {
     letter-spacing: -0.02em;
     color: #000000;
   }
+
+  /* Illustration Mobile View */
+  .bg_vec {
+    visibility: hidden;
+  }
+
+  .bg_vec1 {
+    visibility: visible;
+    width: inherit;
+  }
+
+  .i_intro {
+    position: absolute;
+    width: 211px;
+    height: 129px;
+    left: 76px;
+    top: 315px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.5px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .ii {
+    /* Gift Icon */
+    position: absolute;
+    width: 61px;
+    height: 15px;
+    left: 59px;
+    top: 529px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .underlinei {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 59px;
+    top: 569px;
+    background: #EF7D3A;
+    border-radius: 10px;
+  }
+
+  .i_gift {
+    position: absolute;
+    width: 268px;
+    height: 83px;
+    left: 52px;
+    top: 570px;
+    background: url(image.png);
+    mix-blend-mode: multiply;
+    border-radius: 12px;
+  }
+
+  .ii1 {
+    /* Lion Icon */
+    position: absolute;
+    width: 65px;
+    height: 15px;
+    left: 197px;
+    top: 722px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .underlinei1 {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 199px;
+    top: 762px;
+    background: #EF7D3A;
+    border-radius: 10px;
+  }
+
+  .i_lion {
+    position: absolute;
+    width: 139px;
+    height: 135px;
+    left: 160px;
+    top: 779px;
+  }
+
+  .ii2 {
+    /* Icons for Ludo Star 2 */
+    position: absolute;
+    width: 150px;
+    height: 15px;
+    left: 59px;
+    top: 968px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .underlinei2 {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 59px;
+    top: 1008px;
+    background: #EF7D3A;
+    border-radius: 10px;
+  }
+
+  .i_ls {
+    position: absolute;
+    width: 259px;
+    height: 150.69px;
+    left: 19px;
+    top: 1018px;
+  }
 }
