@@ -4816,7 +4816,6 @@ a {
 
   .bg_vec1 {
     visibility: visible;
-
   }
 
   .wx {
@@ -4980,7 +4979,6 @@ a {
 
   .bg_vec1 {
     visibility: visible;
-
   }
 
   .st1 {
@@ -5106,7 +5104,6 @@ a {
 
   .bg_vec1 {
     visibility: visible;
-
   }
 
   .d {
@@ -5352,7 +5349,6 @@ a {
 
   .bg_vec1 {
     visibility: visible;
-
   }
 
   .i_intro {
@@ -5528,12 +5524,12 @@ a {
 
   .lp {
     position: absolute;
-  width: 234px;
-  height: 73px;
-  left: 14px;
-  top: 579px;
-  mix-blend-mode: multiply;
-  border-radius: 12px;
+    width: 234px;
+    height: 73px;
+    left: 14px;
+    top: 579px;
+    mix-blend-mode: multiply;
+    border-radius: 12px;
   }
 
   .l2 {
@@ -5638,5 +5634,255 @@ a {
     height: 127px;
     left: 91px;
     top: 1113px;
+  }
+
+  /* poster Mobile View */
+  .bg_vec {
+    visibility: hidden;
+  }
+
+  .bg_vec1 {
+    visibility: visible;
+  }
+
+  .mf2 {
+    width: 122px;
+  }
+
+  .underline5 {
+    /* underline */
+    position: absolute;
+    width: 31px;
+    height: 5px;
+    left: 46px;
+    top: 153px;
+    background: #EF7D3A;
+    border-radius: 4px;
+  }
+
+  .pt {
+    position: absolute;
+    width: 123px;
+    height: 182px;
+    left: 59px;
+    top: 585px;
+  }
+
+  .pt_text {
+    /* Trible Tattoo */
+    position: absolute;
+    width: 88px;
+    height: 15px;
+    left: 141px;
+    top: 821px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .underlinei1 {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 141px;
+    top: 861px;
+    background: #EF7D3A;
+    border-radius: 10px;
+  }
+
+  .pt1 {
+    position: absolute;
+    width: 123px;
+    height: 183.52px;
+    left: 141px;
+    top: 872px;
+  }
+
+  .pt_text1 {
+    /* My Swiss trip Archieve */
+    position: absolute;
+    width: 156px;
+    height: 15px;
+    left: 59px;
+    top: 1116px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .underlinei6 {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 59px;
+    top: 1159px;
+    background: #EF7D3A;
+    border-radius: 10px;
+  }
+
+  .pt2 {
+    position: absolute;
+    width: 123px;
+    height: 184.25px;
+    left: 59px;
+    top: 1169px;
+    margin-bottom: 1em;
+  }
+
+  /* other Mobile View */
+  .bg_vec {
+    visibility: hidden;
+  }
+
+  .bg_vec1 {
+    visibility: visible;
+  }
+
+  .mf2 {
+    /* Others */
+    position: absolute;
+    width: 85px;
+    height: 37px;
+    left: 46px;
+    top: 44px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+
+  .underline {
+    position: absolute;
+    width: 31px;
+    height: 5px;
+    left: 46px;
+    top: 150px;
+    background: #EF7D3A;
+  }
+
+  .o {
+    /* Book Design */
+    position: absolute;
+    width: 96px;
+    height: 15px;
+    left: 59px;
+    top: 529px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .underlinei {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 59px;
+    top: 570px;
+    background: #EF7D3A;
+    border-radius: 10px;
+  }
+
+  .o1 {
+    position: absolute;
+    width: 161px;
+    height: 119px;
+    left: 59px;
+    top: 585px;
+  }
+
+  .o2 {
+    position: absolute;
+    width: 161px;
+    height: 117.71px;
+    left: 118px;
+    top: 630px;
+  }
+
+  .o_text {
+    /* Type Design */
+    position: absolute;
+    width: 77px;
+    height: 15px;
+    left: 140px;
+    top: 821px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .underlinei7 {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 140px;
+    top: 861px;
+    background: #EF7D3A;
+    border-radius: 10px;
+  }
+
+  .o3 {
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: 96px;
+    top: 890px;
+    mix-blend-mode: multiply;
+  }
+
+  .o_text1 {
+    /* Experimental design */
+    position: absolute;
+    width: 141px;
+    height: 15px;
+    left: 59px;
+    top: 1116px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .underlinei6 {
+    position: absolute;
+    width: 17px;
+    height: 4px;
+    left: 59px;
+    top: 1135px;
+    background: #EF7D3A;
+    border-radius: 10px;
+  }
+
+  .o4 {
+    position: absolute;
+  width: 225px;
+  height: 111px;
+  left: 58px;
+  top: 1157px;
+
+    margin-bottom: 1em;
   }
 }
