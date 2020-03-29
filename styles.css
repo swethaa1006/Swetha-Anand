@@ -2597,6 +2597,7 @@ a {
 }
 
 /* Illustration */
+
 .i_intro {
   position: absolute;
   width: 469px;
@@ -2924,6 +2925,24 @@ a {
   color: #000000;
 }
 
+.of2{
+  /* Others */
+
+
+position: absolute;
+width: 435px;
+height: 132px;
+left: 274px;
+top: 44px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 144px;
+line-height: 169px;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
 .underlinei6 {
   position: absolute;
   width: 57px;
@@ -5739,26 +5758,31 @@ a {
   }
 
   /* other Mobile View */
+
   .bg_vec {
+    width: 10px;
+    height: 10px;
     visibility: hidden;
   }
 
   .bg_vec1 {
     visibility: visible;
+    height: 1200px;
+    resize: both;
   }
 
-  .mf2 {
+  .of2 {
     /* Others */
     position: absolute;
     width: 85px;
     height: 37px;
     left: 46px;
-    top: 44px;
+    top: 14px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 34px;
-    line-height: 40px;
+    line-height: 44px;
     letter-spacing: -0.003em;
     color: #000000;
   }
