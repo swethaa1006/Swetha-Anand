@@ -4423,6 +4423,8 @@ color: #000000;
 
   .ls_intro_img {
     visibility: hidden;
+    left: 0px;
+    top: 0px;
   }
 
   .bg3 {
@@ -5118,13 +5120,17 @@ color: #000000;
 
   /* Danavanthri Mobile View */
   .bg_vec {
+    width: 10px;
+    height: 10px;
     visibility: hidden;
   }
 
   .bg_vec1 {
     visibility: visible;
+    height: 1200px;
+    resize: both;
+    margin-bottom: 1em;
   }
-
   .d {
     position: absolute;
     width: 189px;
@@ -5363,11 +5369,16 @@ color: #000000;
 
   /* Illustration Mobile View */
   .bg_vec {
+    width: 10px;
+    height: 10px;
     visibility: hidden;
   }
 
   .bg_vec1 {
     visibility: visible;
+    height: 1200px;
+    resize: both;
+    margin-bottom: 1em;
   }
 
   .i_intro {
@@ -5493,11 +5504,16 @@ color: #000000;
 
   /* logo Mobile View */
   .bg_vec {
+    width: 10px;
+    height: 10px;
     visibility: hidden;
   }
 
   .bg_vec1 {
     visibility: visible;
+    height: 1200px;
+    resize: both;
+    margin-bottom: 1em;
   }
 
   .l_intro {
@@ -5657,11 +5673,16 @@ color: #000000;
 
   /* poster Mobile View */
   .bg_vec {
+    width: 10px;
+    height: 10px;
     visibility: hidden;
   }
 
   .bg_vec1 {
     visibility: visible;
+    height: 1200px;
+    resize: both;
+    margin-bottom: 1em;
   }
 
   .mf2 {
@@ -5769,6 +5790,7 @@ color: #000000;
     visibility: visible;
     height: 1200px;
     resize: both;
+    margin-bottom: 1em;
   }
 
   .of2 {
@@ -5872,10 +5894,11 @@ color: #000000;
     left: 96px;
     top: 890px;
     mix-blend-mode: multiply;
+    margin-bottom: 1em;
   }
 
-  .o_text1 {
-    /* Experimental design */
+   .o_text1 {
+    // Experimental design
     position: absolute;
     width: 141px;
     height: 15px;
