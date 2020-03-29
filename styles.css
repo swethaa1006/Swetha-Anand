@@ -2236,7 +2236,7 @@ a {
   border-radius: 10px;
 }
 
-.ls_text {
+.ls1_text {
   /* Algerya Sans */
   position: absolute;
   width: 377px;
@@ -2253,7 +2253,7 @@ a {
   color: #000000;
 }
 
-.ls_text1 {
+.ls1_text1 {
   /* Heeboo */
   position: absolute;
   width: 232px;
@@ -2270,7 +2270,7 @@ a {
   color: #000000;
 }
 
-.ls_text2 {
+.ls1_text2 {
   /* Montserrat */
   position: absolute;
   width: 377px;
@@ -4666,7 +4666,7 @@ color: #000000;
     border-radius: 10px;
   }
 
-  .ls_text {
+  .ls1_text {
     /* Algerya Sans */
     position: absolute;
     width: 190px;
@@ -4679,7 +4679,7 @@ color: #000000;
     letter-spacing: -0.02em;
   }
 
-  .ls_text1 {
+  .ls1_text1 {
     position: absolute;
     width: 130px;
     height: 38px;
@@ -4692,7 +4692,7 @@ color: #000000;
     color: #000000;
   }
 
-  .ls_text2 {
+  .ls1_text2 {
     position: absolute;
     width: 209px;
     height: 38px;
