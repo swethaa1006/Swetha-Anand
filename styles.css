@@ -98,7 +98,14 @@ h4 {
   left: 50px;
   top: 50px;
   position: -webkit-sticky;
-  position: sticky;
+}
+
+.home{
+  position: absolute;
+left: 12.98%;
+right: 83.26%;
+top: 55px;
+bottom: 97.59%;
 }
 
 .dot {
