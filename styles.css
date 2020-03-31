@@ -3157,13 +3157,23 @@ color: #000000;
 
   .back {
     position: absolute;
-    width: 34px;
-    height: 34px;
+    width: 30px;
+    height: 30px;
     left: 20px;
-    top: 27px;
-    position: -webkit-sticky;
-    position: sticky;
+    top: 18px;
+
+    /* position: sticky; */
   }
+.home{
+position: absolute;
+left: 20.94%;
+right: 72.19%;
+top: 18.5px;
+bottom: 98.14%;
+width: 25px;
+height: auto;
+}
+
 
   .swetha {
     position: absolute;
