@@ -462,6 +462,41 @@ a {
   color: #000000;
 }
 
+
+/* blog */
+.dot11{
+  /* dot 11*/
+position: absolute;
+width: 116px;
+height: 116px;
+left: 64.44px;
+  border-radius: 50%;
+top: 872px;
+background: #FFFFFF;
+box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.06);
+}
+
+.blog{
+  /* Blog */
+position: absolute;
+width: 116px;
+height: 39.47px;
+left: 64.44px;
+top: 909px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+letter-spacing: -0.003em;
+color: #000000;
+}
+
+.blog:hover {
+  text: aaa;
+  color: #F98C0D;
+}
 /* Website page */
 .rr {
   /* 2017 Chrome Extention Rapid Redeem */
@@ -3147,8 +3182,21 @@ color: #000000;
   color: #888888;
 }
 
-
-
+/* My learnings as UX designer in Gaming Industry */
+.blog1{
+  position: absolute;
+  width: 981px;
+  height: 132px;
+  left: 274px;
+  top: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 144px;
+  line-height: 169px;
+  letter-spacing: -0.02em;
+  color: #019FF3;
+  }
 
 
 /* ----------------------------------------------mobile view  ----------------------------------------------*/
@@ -6072,7 +6120,7 @@ background: #EF7D3A;
 }
 .p1{
   position: absolute;
-  width: 221px;
+  width: 211px;
   height: 129px;
   left: 46px;
   top: 225px;
@@ -6083,7 +6131,7 @@ background: #EF7D3A;
 
 }
 .p2{
-  width: 221px;
+  width: 211px;
   height: 129px;
   left: 46px;
   font-weight: normal;
@@ -6102,4 +6150,44 @@ background: #EF7D3A;
   width: 100%;
   height: 400px;
 }
+.dot11{
+  position: absolute;
+width: 81px;
+height: 81px;
+left: 209px;
+top: 787px;
+background: #FFFFFF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+}
+.blog{
+  /* Blog */
+
+
+position: absolute;
+width: 62.1px;
+height: 22.95px;
+left: 219px;
+top: 817px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 17px;
+line-height: 20px;
+text-align: center;
+letter-spacing: -0.003em;
+
+color: #000000;
+}
+.blog1{
+  width: 227px;
+  height: 37px;
+  left: 46px;
+  top: 44px;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+      text-align: left;
+  letter-spacing: -0.003em;
+  }
 }
