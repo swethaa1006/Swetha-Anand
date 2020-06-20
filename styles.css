@@ -3236,6 +3236,26 @@ color: #000000;
   .gd1:hover {
     color: #F98C0D;
   }
+
+  .gd2 {
+   /* 2017 Chrome Extention Rapid Redeem */
+   position: absolute;
+   width: 950px;
+   height: 124px;
+   left: 186px;
+   top: 265px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 35px;
+   line-height: 41px;
+   letter-spacing: -0.003em;
+   color: #000000;
+ }
+
+ .gd2:hover {
+   color: #F98C0D;
+ }
 /* ----------------------------------------------mobile view  ----------------------------------------------*/
 @media only screen and (max-width: 600px) {
   h1 {
@@ -6251,6 +6271,17 @@ color: #000000;
   height: 61px;
   left: 71px;
   top: 165px;
+  font-size: 17.5px;
+  line-height: 21px;
+  letter-spacing: -0.003em;
+  color: #000000;
+}
+.gd2{
+  position: absolute;
+  width: 242px;
+  height: 61px;
+  left: 71px;
+  top: 290px;
   font-size: 17.5px;
   line-height: 21px;
   letter-spacing: -0.003em;
