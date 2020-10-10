@@ -125,29 +125,43 @@ bottom: 97.59%;
   left: 828px;
   top: 52px;
   border-radius: 50%;
+  background: #43aa8b;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+}
+
+.dot1:hover {
+  /* web design bg */
+  position: absolute;
+  width: 174px;
+  height: 174px;
+  left: 828px;
+  top: 52px;
+  text-align: center;
+  border-radius: 50%;
+  color: #43aa8b;
   background: #FFFFFF;
-  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+
 }
 
 .icon {
   /* Icon */
-  position: absolute;
-  width: 135px;
-  height: 103px;
-  left: 847px;
-  top: 123px;
+  position: relative;
+  top: 56px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 22px;
   text-align: center;
-  letter-spacing: -0.003em;
-  color: #000000;
+  letter-spacing: 0.5px;
+  /* color: #000000; */
 }
 
 .icon:hover {
-  color: #F98C0D;
+  position: relative;
+  /* left: 20px; */
+  /* color: #F98C0D; */
 }
 
 .dot2 {
@@ -157,7 +171,24 @@ bottom: 97.59%;
   height: 288px;
   left: 207px;
   top: 128px;
+  text-align: center;
   border-radius: 50%;
+  color: #FFFFFF;
+  background: #f3722c;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+
+}
+
+.dot2:hover {
+  /* web design bg */
+  position: absolute;
+  width: 288px;
+  height: 288px;
+  left: 207px;
+  top: 128px;
+  color: #F98C0D;
+  border-radius: 50%;
+  text-align: center;
   background: #FFFFFF;
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
 }
@@ -170,55 +201,62 @@ bottom: 97.59%;
   left: 1137px;
   top: 220px;
   border-radius: 50%;
-  background: #FFFFFF;
+    text-align: center;
+  color: #FFFFFF;
+  background: #f9c74f;
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+}
+.dot3:hover{
+  /* web design bg */
+  position: absolute;
+  width: 227px;
+  height: 227px;
+  left: 1137px;
+  top: 220px;
+  color: #f9c74f;
+  border-radius: 50%;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
 }
 
 a {
   text-decoration: none;
+  color: inherit;
+
 }
 
-.wb:hover {
+.wb:hover + .dot2:hover {
+  position: relative;
   color: #F98C0D;
+  top: 77px;
 }
 
 .wb {
   /* Web Design */
-  position: absolute;
-  width: 255px;
-  height: 159px;
-  left: 223px;
-  top: 164px;
+  top: 75px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 88px;
+  font-size: 62px;
+  line-height: 65px;
   text-align: center;
   letter-spacing: -0.003em;
-  color: #000000;
+  /* color: #FFFFFF; */
 }
 
 .mb {
   /* Mobile Design */
-  position: absolute;
-  width: 194px;
-  height: 115px;
-  left: 1154px;
-  top: 272px;
+  position: relative;
+  top: 29px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 55px;
-  line-height: 64px;
-  text-align: center;
-  letter-spacing: -0.003em;
-  color: #000000;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1px;
 }
 
-.mb:hover {
-  color: #F98C0D;
-}
 
 .dot4 {
   /* logo bg */
@@ -228,30 +266,41 @@ a {
   left: 1080px;
   top: 525px;
   border-radius: 50%;
-  background: #FFFFFF;
+  color: #FFFFFF;
+  background: #f94144;
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.12);
+}
+
+.dot4:hover{
+  /* logo bg */
+  width: 114px;
+  height: 114px;
+  left: 1080px;
+  top: 525px;
+  color: #f94144;
+  border-radius: 50%;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
 }
 
 .logo {
   /* Logo */
-  position: absolute;
-  width: 116px;
-  height: 115px;
-  left: 1080px;
-  top: 552px;
+  position: relative;
+  top:10px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 900;
-  font-size: 43px;
-  line-height: 52px;
+  font-weight: 600;
+  font-size: 29px;
   text-align: center;
   letter-spacing: -0.003em;
-  color: #000000;
+  color: #FFFFFF;
 }
 
-.logo:hover {
-  color: #F98C0D;
+.logo {
+  color: inherit;
 }
+
 
 .dot5 {
   /* poster bg */
@@ -261,30 +310,39 @@ a {
   left: 53px;
   top: 358px;
   border-radius: 50%;
-  background: #FFFFFF;
+  color: #FFFFFF;
+  background: #277da1;
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.09);
+}
+
+.dot5:hover{
+  /* poster bg */
+  width: 116px;
+  height: 116px;
+  left: 53px;
+  top: 358px;
+  color: #277da1;
+  border-radius: 50%;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
 }
 
 .poster {
   /* Posters */
-  position: absolute;
-  width: 116px;
-  height: 33px;
-  left: 54px;
-  top: 397px;
+  position: relative;
+  top: 19px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 900;
-  font-size: 30px;
-  line-height: 35px;
+  font-weight: 600;
+  font-size: 25px;
   text-align: center;
-  letter-spacing: -0.003em;
-  color: #000000;
+  letter-spacing: 0.5px;
 }
 
-.poster:hover {
+/* .poster:hover {
   color: #F98C0D;
-}
+} */
 
 .dot6 {
   /* other bg */
@@ -294,29 +352,39 @@ a {
   left: 252px;
   top: 523px;
   border-radius: 50%;
-  background: #FFFFFF;
+  color: #FFFFFF;
+  background: #90be6d;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.10);
+}
+
+.dot6:hover{
+  /* other bg */
+  width: 116px;
+  height: 116px;
+  left: 252px;
+  top: 523px;
+    color: #90be6d;
+  /* border-radius: 50%; */
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
 }
 
 .other {
   /* Others */
-  position: absolute;
-  width: 116px;
-  height: 115px;
-  left: 252px;
-  top: 560px;
+  position: relative;
+  top: 10px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 30px;
   line-height: 35px;
   text-align: center;
-  letter-spacing: -0.003em;
-  color: #000000;
+  letter-spacing: 0.5px;
 }
 
 .other:hover {
-  color: #F98C0D;
+  color: inherit;
 }
 
 .dot7 {
@@ -327,28 +395,42 @@ a {
   left: 72px;
   top: 601px;
   border-radius: 50%;
-  background: #FFFFFF;
+  color: #FFFFFF;
+  background: #f8961e;
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.09);
 }
 
-.pp {
-  /* Personal Practice */
+.dot7:hover{
+  /* personal project bg */
   position: absolute;
-  width: 116px;
-  height: 58px;
-  left: 54px;
-  top: 606px;
+  width: 78px;
+  height: 78px;
+  left: 72px;
+  top: 601px;
+  color: #f8961e;
+  /* border-radius: 50%; */
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+}
+
+.pp{
+  /* Personal Practice */
+  position: relative;
+  width: 60px;
+  height: 32px;
+  left: 10px;
+  top: 11px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 15px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 15px;
   text-align: center;
-  letter-spacing: -0.003em;
-  color: #000000;
+  letter-spacing: 0.5px;
 }
 .pp:hover {
-  color: #F98C0D;
+  color: #inherit;
 }
 .dot8 {
   /* Resume bg */
@@ -358,25 +440,36 @@ a {
   left: 1171px;
   top: 889px;
   border-radius: 50%;
-  background: #FFFFFF;
+  color: #FFFFFF;
+  background: #4d908e;
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+}
+
+.dot8:hover{
+  /* Resume bg */
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: 1171px;
+  top: 889px;
+  color: #4d908e;
+  /* border-radius: 50%; */
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
 }
 
 .resume {
   /* Resume */
-  position: absolute;
-  width: 136.74px;
-  height: 81.06px;
-  left: 1181.75px;
-  top: 945.93px;
+  position: relative;
+
+top: 30px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 900;
-  font-size: 35px;
-  line-height: 41px;
+  font-weight: 600;
+  font-size: 30px;
   text-align: center;
   letter-spacing: -0.003em;
-  color: #000000;
 }
 
 .resume:hover {
@@ -391,30 +484,40 @@ a {
   left: 1024px;
   top: 1211px;
   border-radius: 50%;
-  background: #FFFFFF;
+  color: #FFFFFF;
+  background: #f8961e;
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+}
+
+.dot9:hover{
+  /* Resume bg */
+  position: absolute;
+  width: 227px;
+  height: 227px;
+  left: 1024px;
+  top: 1211px;
+  color: #f8961e;
+  /* border-radius: 50%; */
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
 }
 
 .email {
   /* Email */
-  position: absolute;
-  width: 194px;
-  height: 115px;
-  left: 1041px;
-  top: 1289px;
+  position: relative;
+
+      top: 35px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 55px;
-  line-height: 64px;
+  font-size: 50px;
   text-align: center;
   letter-spacing: -0.003em;
-  color: #000000;
 }
 
 .email:hover {
-  text: aaa;
-  color: #F98C0D;
+  color:inherit;
 }
 
 .dot10 {
@@ -465,37 +568,45 @@ a {
 
 /* blog */
 .dot11{
-  /* dot 11*/
 position: absolute;
 width: 116px;
 height: 116px;
 left: 64.44px;
   border-radius: 50%;
 top: 872px;
-background: #FFFFFF;
+color: #FFFFFF;
+background: #577590;
 box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.06);
 }
-
+.dot11:hover{
+/* blog */
+  position: absolute;
+  width: 116px;
+  height: 116px;
+  left: 64.44px;
+top: 872px;
+  color: #577590;
+  /* border-radius: 50%; */
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+}
 .blog{
   /* Blog */
-position: absolute;
-width: 116px;
-height: 39.47px;
-left: 64.44px;
-top: 909px;
+position: relative;
+
+top: 9px;
 font-family: Roboto;
 font-style: normal;
-font-weight: 900;
+font-weight: 600;
 font-size: 30px;
 line-height: 35px;
 text-align: center;
 letter-spacing: -0.003em;
-color: #000000;
 }
 
 .blog:hover {
-  text: aaa;
-  color: #F98C0D;
+  color: inherit;
 }
 /* Website page */
 .rr {
@@ -3112,14 +3223,14 @@ color: #000000;
 
 /* personal practise */
 
-.pp{
+/* .pp{
   position: absolute;
   width: 60px;
   height: 32px;
   left: 82px;
-  top: 623px;
+   top: 623px; */
 
-  font-family: Roboto;
+  /* font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 15px;
@@ -3128,8 +3239,7 @@ color: #000000;
   letter-spacing: -0.003em;
 
   color: #000000;
-
-}
+  */
  video {
    width: 100%;
     height: auto;
@@ -3312,7 +3422,7 @@ height: auto;
     height: 123px;
     left: 181px;
     top: 44px;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
   }
 
   .icon {
@@ -3467,7 +3577,8 @@ height: auto;
 
   .pp {
     /* Personal Practice */
-    position: absolute;
+
+    /* position: absolute;
     width: 66px;
     height: 33px;
     left: 90px;
@@ -3476,7 +3587,7 @@ height: auto;
     line-height: 18px;
     text-align: center;
     letter-spacing: -0.003em;
-    color: #000000;
+    color: #000000; */
   }
 
   .dot8 {
