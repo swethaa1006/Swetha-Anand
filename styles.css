@@ -3409,7 +3409,7 @@ video {
   }
 
   /* Illustration */
-    .dot1 {
+  .dot1 {
     /* icon circle */
     position: absolute;
     width: 123px;
@@ -3426,10 +3426,10 @@ video {
     position: relative;
     top: 34px;
     font-size: 18px;
+    font-weight: 400;
     line-height: 21px;
     text-align: center;
     letter-spacing: -0.003em;
-
   }
 
   .dot2 {
@@ -3439,22 +3439,21 @@ video {
     height: 115px;
     left: 14px;
     top: 294px;
-    background: #FFFFFF;
+    color: white;
+    background: #f3722c;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
   }
 
   .wb {
     /* Web Design */
-    position: absolute;
-    width: 102px;
-    height: 56px;
-    left: 22px;
-    top: 319px;
-    font-size: 26px;
-    line-height: 30px;
+    position: relative;
+    width: 110px;
+    top: 11px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
     text-align: center;
-    letter-spacing: -0.003em;
-    color: #000000;
+    letter-spacing: 0.5px;
   }
 
   .dot3 {
@@ -3464,22 +3463,23 @@ video {
     height: 136px;
     left: 175px;
     top: 337px;
-    background: #FFFFFF;
+    color: white;
+    background: ##f9c74f;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
   }
 
   .mb {
     /* Mobile Design */
-    position: absolute;
-    width: 116px;
+    position: relative;
+    /* width: 116px;
     height: 49px;
-    left: 185px;
-    top: 380px;
+    left: 185px; */
+    top: 15px;
     font-size: 24px;
     line-height: 28px;
+    font-weight: 500;
     text-align: center;
-    letter-spacing: -0.003em;
-    color: #000000;
+    letter-spacing: 0.3px;
   }
 
   .dot4 {
@@ -3489,22 +3489,18 @@ video {
     height: 68px;
     left: 236px;
     top: 218px;
-    background: #FFFFFF;
+    color: #FFFFFF;
+    background: ##f94144;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.12);
   }
 
   .logo {
     /* Logo */
-    position: absolute;
-    width: 51.38px;
-    height: 24.18px;
-    left: 245px;
-    top: 240px;
-    font-size: 20px;
-    line-height: 23px;
+    position: relative;
+    top: 5px;
+    font-size: 18px;
     text-align: center;
-    letter-spacing: -0.003em;
-    color: #000000;
+    letter-spacing: 0.5px;
   }
 
   .dot5 {
@@ -3512,24 +3508,21 @@ video {
     position: absolute;
     width: 66px;
     height: 66px;
-    left: 1px;
-    top: 819px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.09);
+    left: 21px;
+    top: 779px;
+    color: white;
+    background: #277da1;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
   }
 
   .poster {
     /* Posters */
-    position: absolute;
-    width: 54px;
-    height: 19px;
-    left: 8px;
-    top: 843px;
+    position: relative;
+    top: 8px;
     font-size: 15px;
-    line-height: 18px;
+    font-weight: 500;
     text-align: center;
     letter-spacing: -0.003em;
-    color: #000000;
   }
 
   .dot6 {
@@ -3537,24 +3530,21 @@ video {
     position: absolute;
     width: 81px;
     height: 81px;
-    left: 185px;
+    left: 257px;
     top: 914px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+    color: white;
+    background: #90be6d;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   }
 
   .other {
     /* Others */
-    position: absolute;
-    width: 62.1px;
-    height: 22.95px;
-    left: 195px;
-    top: 944px;
+    position: relative;
+    top: 14px;
     font-size: 17px;
     line-height: 20px;
     text-align: center;
-    letter-spacing: -0.003em;
-    color: #000000;
+    letter-spacing: 0.7px;
   }
 
   .dot7 {
@@ -3564,22 +3554,14 @@ video {
     height: 78px;
     left: 85px;
     top: 846px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.09);
+    color: white;
+    background: #f8961e;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
   }
 
   .pp {
-    /* Personal Practice */
-    /* position: absolute;
-    width: 66px;
-    height: 33px;
-    left: 90px;
-    top: 868px;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: center;
-    letter-spacing: -0.003em;
-    color: #000000; */
+    font-weight: 600;
+    font-size: 12px;
   }
 
   .dot8 {
@@ -3589,23 +3571,21 @@ video {
     height: 103px;
     left: 198px;
     top: 1066px;
-    background: #FFFFFF;
+    color: white;
+    background: #4d908e;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
     margin-bottom: 1em;
   }
 
   .resume {
     /* Resume */
-    position: absolute;
-    width: 88px;
-    height: 22px;
-    left: 206px;
-    top: 1107px;
+    position: relative;
+    top: 20px;
     font-size: 20px;
     line-height: 23px;
+    font-weight: 500;
     text-align: center;
     letter-spacing: -0.003em;
-    color: #000000;
   }
 
   .dot9 {
@@ -3615,22 +3595,20 @@ video {
     height: 131px;
     left: 42px;
     top: 998px;
-    background: #FFFFFF;
+    color: white;
+    background: #f94144;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
   }
 
   .email {
     /* Email */
-    position: absolute;
-    width: 90px;
-    height: 34px;
-    left: 63px;
-    top: 1041px;
+    position: relative;
+    top: 10px;
     font-size: 36px;
+    font-weight: 600;
     line-height: 42px;
     text-align: center;
     letter-spacing: -0.003em;
-    color: #000000;
   }
 
   .dot10 {
@@ -6312,25 +6290,21 @@ video {
     height: 81px;
     left: 209px;
     top: 787px;
-    background: #FFFFFF;
+    color: #FFFFFF;
+    background: #577590;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
   }
 
   .blog {
     /* Blog */
-    position: absolute;
-    width: 62.1px;
-    height: 22.95px;
-    left: 219px;
-    top: 817px;
+    position: relative;
+    top: 10px;
     font-family: Roboto;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 400;
     font-size: 17px;
-    line-height: 20px;
     text-align: center;
     letter-spacing: -0.003em;
-    color: #000000;
   }
 
   .blog1 {
