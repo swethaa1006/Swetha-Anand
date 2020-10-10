@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:900,600,700,400,500,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:900,700,400,500,300);
 @import url('https://fonts.googleapis.com/css?family=Alegreya&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
@@ -150,7 +150,7 @@ h4 {
   top: 56px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 22px;
   text-align: center;
   letter-spacing: 0.5px;
@@ -235,7 +235,7 @@ a {
   top: 75px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 62px;
   line-height: 65px;
   text-align: center;
@@ -249,7 +249,7 @@ a {
   top: 29px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 1px;
@@ -287,7 +287,7 @@ a {
   top: 10px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 29px;
   text-align: center;
   letter-spacing: -0.003em;
@@ -330,7 +330,7 @@ a {
   top: 19px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 25px;
   text-align: center;
   letter-spacing: 0.5px;
@@ -371,7 +371,7 @@ a {
   top: 10px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 30px;
   line-height: 35px;
   text-align: center;
@@ -418,7 +418,7 @@ a {
   top: 11px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 14px;
   line-height: 15px;
   text-align: center;
@@ -462,7 +462,7 @@ a {
   top: 30px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 30px;
   text-align: center;
   letter-spacing: -0.003em;
@@ -505,7 +505,7 @@ a {
   top: 35px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 50px;
   text-align: center;
   letter-spacing: -0.003em;
@@ -536,7 +536,7 @@ a {
   top: 720px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 75px;
   line-height: 88px;
   text-align: center;
@@ -593,7 +593,7 @@ a {
   top: 9px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 30px;
   line-height: 35px;
   text-align: center;
@@ -949,6 +949,28 @@ a {
   width: 20px;
   height: 20px;
   left: 411px;
+  top: 443px;
+  border-radius: 12px;
+  border: 2px solid #13CFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.circle35 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 478px;
+  top: 443px;
+  border-radius: 12px;
+  border: 2px solid #13CFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.circle36 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 545px;
   top: 443px;
   border-radius: 12px;
   border: 2px solid #13CFFF;
@@ -3450,10 +3472,10 @@ video {
     width: 110px;
     top: 11px;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 22px;
     text-align: center;
-    letter-spacing: -0.003em;
+    letter-spacing: 0.5px;
   }
 
   .dot3 {
@@ -3464,7 +3486,7 @@ video {
     left: 175px;
     top: 337px;
     color: white;
-    background: #f9c74f;
+    background: ##f9c74f;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
   }
 
@@ -3477,9 +3499,9 @@ video {
     top: 15px;
     font-size: 24px;
     line-height: 28px;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
-    letter-spacing: -0.003em;
+    letter-spacing: 0.3px;
   }
 
   .dot4 {
@@ -3498,10 +3520,9 @@ video {
     /* Logo */
     position: relative;
     top: 5px;
-    font-weight:400;
     font-size: 18px;
     text-align: center;
-    letter-spacing: -0.003em;
+    letter-spacing: 0.5px;
   }
 
   .dot5 {
@@ -3521,7 +3542,7 @@ video {
     position: relative;
     top: 8px;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     letter-spacing: -0.003em;
   }
@@ -3541,12 +3562,11 @@ video {
   .other {
     /* Others */
     position: relative;
-    top: 7px;
+    top: 14px;
     font-size: 17px;
     line-height: 20px;
-    font-weight:400;
     text-align: center;
-    letter-spacing: -0.003em;
+    letter-spacing: 0.7px;
   }
 
   .dot7 {
@@ -3562,9 +3582,8 @@ video {
   }
 
   .pp {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 12px;
-    letter-spacing:0px;
   }
 
   .dot8 {
@@ -3586,7 +3605,7 @@ video {
     top: 20px;
     font-size: 20px;
     line-height: 23px;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     letter-spacing: -0.003em;
   }
@@ -3611,7 +3630,6 @@ video {
     font-weight: 600;
     line-height: 42px;
     text-align: center;
-    font-weight:400;
     letter-spacing: -0.003em;
   }
 
@@ -3623,7 +3641,6 @@ video {
     left: 16px;
     top: 481px;
     background: #FFFFFF;
-    
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
     ;
   }
@@ -3636,7 +3653,6 @@ video {
     left: 94px;
     top: 493px;
     font-size: 22px;
-    font-weight:400;
     line-height: 26px;
     /* identical to box height */
     text-align: center;
@@ -3893,7 +3909,7 @@ video {
     width: 12.71px;
     height: 12.71px;
     left: 77.34px;
-    top: 139px;
+    top: 190px;
     border: 2px solid #13CFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
   }
@@ -3904,7 +3920,7 @@ video {
     width: 12.71px;
     height: 12.71px;
     left: 119.91px;
-    top: 139px;
+    top: 190px;
     border: 2px solid #13CFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
   }
@@ -3915,7 +3931,29 @@ video {
     width: 12.71px;
     height: 12.71px;
     left: 162.48px;
-    top: 139px;
+    top: 190px;
+    border: 2px solid #13CFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .circle35 {
+    /* Ellipse 371 */
+    position: absolute;
+    width: 12.71px;
+    height: 12.71px;
+    left: 205.05px;
+    top: 190px;
+    border: 2px solid #13CFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .circle36 {
+    /* Ellipse outline */
+    position: absolute;
+    width: 12.71px;
+    height: 12.71px;
+    left: 247.62px;
+    top: 190px;
     border: 2px solid #13CFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
   }
@@ -3924,9 +3962,9 @@ video {
     /* intro line */
     position: absolute;
     width: 18px;
-    height: 170px;
-    left: 65px;
-    top: 148px;
+    height: 97px;
+    left: 67px;
+    top: 208px;
   }
 
   h3 {
