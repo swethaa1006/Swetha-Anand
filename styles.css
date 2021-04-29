@@ -3383,6 +3383,25 @@ video {
   color: #F98C0D;
 }
 
+.gd3 {
+  /* 2017 Chrome Extention Rapid Redeem */
+  position: absolute;
+  width: 950px;
+  height: 124px;
+  left: 186px;
+  top: 330px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 41px;
+  letter-spacing: -0.003em;
+  color: #000000;
+}
+
+.gd3:hover {
+  color: #F98C0D;
+}
 /* ----------------------------------------------mobile view  ----------------------------------------------*/
 @media only screen and (max-width: 600px) {
   h1 {
