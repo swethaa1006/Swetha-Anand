@@ -3276,6 +3276,32 @@ video {
   letter-spacing: -0.02em;
 }
 
+.p_txt1 {
+  position: absolute;
+  height: 19px;
+  left: 276px;
+  top: 443px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+}
+
+.p_txt2 {
+  position: absolute;
+  height: 19px;
+/*   left: 276px; */
+  top: 3531px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+}
+
 .underline_1 {
   position: absolute;
   width: 91px;
@@ -3403,6 +3429,10 @@ video {
   color: #F98C0D;
 }
 
+ .pic2 {
+    width: auto;
+    height: 1060px;
+  }
 /* ----------------------------------------------mobile view  ----------------------------------------------*/
 @media only screen and (max-width: 600px) {
   h1 {
@@ -6387,6 +6417,10 @@ video {
     width: 250px;
     height: auto;
   }
+   .pic2 {
+    width: 250px;
+    height: auto;
+  }
 
   .gd {
     position: absolute;
@@ -6434,4 +6468,30 @@ video {
     letter-spacing: -0.003em;
     color: #000000;
   }
+  
+  .p_txt1 {
+  position: absolute;
+  height: 19px;
+  left: 276px;
+  top: 443px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+}
+
+.p_txt2 {
+  position: absolute;
+  height: 19px;
+/*   left: 276px; */
+  top: 3531px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+}
 }
