@@ -3279,7 +3279,7 @@ video {
 .p_txt1 {
   position: absolute;
   height: 19px;
-  left: 276px;
+/*   left: 276px; */
   top: 443px;
   font-family: Roboto;
   font-weight: normal;
@@ -3293,7 +3293,19 @@ video {
   position: absolute;
   height: 19px;
 /*   left: 276px; */
-  top: 3531px;
+  top: 4153px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+}
+.p_txt3 {
+  position: absolute;
+  height: 19px;
+/*   left: 276px; */
+  top: 5431px;
   font-family: Roboto;
   font-weight: normal;
   font-size: 36px;
@@ -6329,7 +6341,7 @@ video {
     position: absolute;
     width: 236px;
     height: 19px;
-    left: 46px;
+/*     left: 46px; */
     top: 140px;
     font-weight: normal;
     font-size: 16px;
@@ -6470,28 +6482,36 @@ video {
   }
   
   .p_txt1 {
-  position: absolute;
-  height: 19px;
-  left: 276px;
-  top: 443px;
-  font-family: Roboto;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 19px;
-  /* identical to box height */
-  letter-spacing: -0.02em;
+        position: absolute;
+    width: 236px;
+    height: 19px;
+/*     left: 46px; */
+    top: 443px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
 }
-
-.p_txt2 {
-  position: absolute;
-  height: 19px;
-/*   left: 276px; */
-  top: 3531px;
-  font-family: Roboto;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 19px;
-  /* identical to box height */
-  letter-spacing: -0.02em;
+  .p_txt2 {
+        position: absolute;
+    width: 236px;
+    height: 16px;
+/*     left: 46px; */
+  top: 4153px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+}
+  .p_txt3 {
+        position: absolute;
+    width: 236px;
+    height: 19px;
+/*     left: 46px; */
+  top: 5421px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
 }
 }
