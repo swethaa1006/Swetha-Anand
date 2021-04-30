@@ -3402,6 +3402,7 @@ video {
 .gd3:hover {
   color: #F98C0D;
 }
+
 /* ----------------------------------------------mobile view  ----------------------------------------------*/
 @media only screen and (max-width: 600px) {
   h1 {
@@ -6417,6 +6418,17 @@ video {
     height: 61px;
     left: 71px;
     top: 290px;
+    font-size: 17.5px;
+    line-height: 21px;
+    letter-spacing: -0.003em;
+    color: #000000;
+  }
+   .gd3 {
+    position: absolute;
+    width: 242px;
+    height: 61px;
+    left: 71px;
+    top: 415px;
     font-size: 17.5px;
     line-height: 21px;
     letter-spacing: -0.003em;
