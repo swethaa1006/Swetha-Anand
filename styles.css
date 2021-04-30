@@ -3305,7 +3305,7 @@ video {
   position: absolute;
   height: 19px;
 /*   left: 276px; */
-  top: 5431px;
+  top: 5353px;
   font-family: Roboto;
   font-weight: normal;
   font-size: 36px;
@@ -6341,7 +6341,7 @@ video {
     position: absolute;
     width: 236px;
     height: 19px;
-/*     left: 46px; */
+    left: 46px;
     top: 140px;
     font-weight: normal;
     font-size: 16px;
