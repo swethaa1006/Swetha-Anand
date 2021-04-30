@@ -3430,8 +3430,8 @@ video {
 }
 
  .pic2 {
-    width: auto;
-    height: 1060px;
+    width: 1060px;
+    height: auto;
   }
 /* ----------------------------------------------mobile view  ----------------------------------------------*/
 @media only screen and (max-width: 600px) {
