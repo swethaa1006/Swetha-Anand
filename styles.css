@@ -6501,7 +6501,16 @@ video {
     background: #577590;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
   }
-
+ .dot11:hover {
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    left: 209px;
+    top: 787px;
+    color: #577590;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+  }
   .blog {
     /* Blog */
     position: relative;
@@ -6513,6 +6522,10 @@ video {
     text-align: center;
     letter-spacing: -0.003em;
   }
+  
+  .blog:hover {
+  color: inherit;
+}
 
   .blog1 {
     width: 227px;
