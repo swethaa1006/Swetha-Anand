@@ -3504,6 +3504,20 @@ video {
     top: 44px;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
   }
+  
+  .dot1:hover {
+  /* web design bg */
+  position: absolute;
+  width: 123px;
+    height: 123px;
+     left: 181px;
+/*   text-align: center;
+  border-radius: 50%; */
+  color: #43aa8b;
+  background: #FFFFFF;
+    top: 44px;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+}
 
   .icon {
     /* Illustrations */
@@ -3527,7 +3541,17 @@ video {
     background: #f3722c;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
   }
-
+  .dot2:hover {
+    /* web design bg */
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 14px;
+    top: 294px;
+  color: #f3722c;
+  background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+  }
   .wb {
     /* Web Design */
     position: relative;
@@ -3548,10 +3572,21 @@ video {
     left: 175px;
     top: 337px;
     color: white;
-    background: ##f9c74f;
+    background: #f9c74f;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
   }
 
+    .dot3:hover  {
+    /* mobile design bg */
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    left: 175px;
+    top: 337px;
+    color: #f9c74f;
+  background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+  }
   .mb {
     /* Mobile Design */
     position: relative;
@@ -3577,7 +3612,17 @@ video {
     background: ##f94144;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.12);
   }
-
+ .dot4:hover {
+    /* logo bg */
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 236px;
+    top: 218px;
+     color: #f94144;
+  background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.12);
+  }
   .logo {
     /* Logo */
     position: relative;
@@ -3596,6 +3641,17 @@ video {
     top: 779px;
     color: white;
     background: #277da1;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+  }
+ .dot5:hover {
+    /* poster bg */
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 21px;
+    top: 779px;
+    color: #277da1;
+  background: #FFFFFF;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
   }
 
@@ -3621,6 +3677,17 @@ video {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   }
 
+  .dot6:hover {
+    /* other bg */
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    left: 257px;
+    top: 914px;
+     color: #90be6d;
+  background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
   .other {
     /* Others */
     position: relative;
@@ -3643,6 +3710,18 @@ video {
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
   }
 
+  .dot7:hover {
+    /* personal project bg */
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 85px;
+    top: 846px;
+   color: #f8961e;
+  background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+  }
+
   .pp {
     font-weight: 600;
     font-size: 12px;
@@ -3660,7 +3739,18 @@ video {
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
     margin-bottom: 1em;
   }
-
+ .dot8:hover {
+    /* Resume bg */
+    position: absolute;
+    width: 103px;
+    height: 103px;
+    left: 198px;
+    top: 1066px;
+  color: #4d908e;
+  background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1em;
+  }
   .resume {
     /* Resume */
     position: relative;
@@ -3684,6 +3774,17 @@ video {
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
   }
 
+  .dot9:hover {
+    /* email bg */
+    position: absolute;
+    width: 131px;
+    height: 131px;
+    left: 42px;
+    top: 998px;
+  color: #f94144;
+  background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+  }
   .email {
     /* Email */
     position: relative;
@@ -3704,7 +3805,7 @@ video {
     top: 481px;
     background: #FFFFFF;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
-    ;
+    
   }
 
   .ms {
