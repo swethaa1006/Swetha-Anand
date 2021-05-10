@@ -139,9 +139,48 @@ h4 {
   top: 52px;
   text-align: center;
   border-radius: 50%;
+  color: #333a8b;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+}
+.dot12 {
+  /* Mentor circle */
+  position: absolute;
+  width: 154px;
+  height: 154px;
+  left: 1228px;
+  top: 600px;
+  border-radius: 50%;
+  background: #333a8b;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+}
+
+.dot12:hover {
+  /* Mentor */
+  position: absolute;
+  width: 154px;
+  height: 154px;
+  left: 1228px;
+  top: 600px;
+  text-align: center;
+  border-radius: 50%;
   color: #43aa8b;
   background: #FFFFFF;
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+}
+
+.mentor {
+  /* mentor */
+  position: relative;
+  top: 34px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  /* color: #000000; */
 }
 
 .icon {
@@ -297,6 +336,7 @@ a {
 .logo {
   color: inherit;
 }
+
 
 .dot5 {
   /* poster bg */
@@ -3337,6 +3377,84 @@ video {
   line-height: 44px;
   letter-spacing: -0.02em;
 }
+.p3 {
+  position: absolute;
+  /* width: 211px; */
+  /* height: 129px; */
+  left: 276px;
+  right: 200px;
+  font-family: Roboto;
+  font-weight: 300;
+  top: 305px;
+  font-size: 25px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+}
+
+
+.form1 {
+  position: absolute;
+  /* width: 211px; */
+  /* height: 129px; */
+  left: 276px;
+  right: 200px;
+  font-family: Roboto;
+  font-weight: 500;
+  top: 1425px;
+  font-size: 25px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+}
+.formlabel{
+  width: 930px;
+ height: 40px;
+}
+
+.formlabel1{
+  width: 930px;
+ height: 240px;
+}
+
+.buttonform{
+  height: 50px;
+width: 200px;
+font-size: 26px;
+
+}
+.tablink {
+  background-color: #ffffff;
+  color: Black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px ;
+  font-size: 26px;
+  font-weight: 600;
+  width: 310px;
+}
+
+.tablink:hover {
+  background-color: #f0f0f0;
+}
+
+/* .tablink:active{
+  color:white;
+} */
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  width: 830px;
+  text-align: center;
+}
+#Basic {background-color:#43aa8b; }
+#Premium {background-color:#f3722c;}
+/* #Paris {background-color:#43aa8b;} */
+/* #Tokyo {background-color:green;} */
+#Advanced {background-color:blue;}
 
 .p2 {
   font-size: 20px;
