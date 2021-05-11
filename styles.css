@@ -3408,11 +3408,14 @@ video {
 .formlabel{
   width: 930px;
  height: 40px;
+ margin-bottom: 10px;
 }
 
 .formlabel1{
   width: 930px;
  height: 240px;
+ margin-bottom: 10px;
+
 }
 
 .buttonform{
@@ -3583,6 +3586,79 @@ font-size: 26px;
   }
 /* ----------------------------------------------mobile view  ----------------------------------------------*/
 @media only screen and (max-width: 600px) {
+.p3{
+  position: absolute;
+  width: 240px;
+  height: 129px;
+  left: 46px;
+  top: 225px;
+  font-weight: normal;
+  font-size: 14.5px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+}
+  .form1 {
+    position: absolute;
+    /* width: 211px; */
+    /* height: 129px; */
+    left: 46px;
+    /* right: 200px; */
+    font-family: Roboto;
+    font-weight: 500;
+    top: 1475px;
+    font-size: 15px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+  }
+  .formlabel{
+    width: 220px;
+   height: 40px;
+  }
+
+  .formlabel1{
+      width: 220px;
+   height: 240px;
+   margin-bottom: 5px;
+
+  }
+
+  .buttonform{
+    height: 45px;
+  width: 220px;
+  font-size: 16px;
+  margin-bottom: 50px;
+
+  }
+  .tablink {
+    background-color: #ffffff;
+    color: Black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px ;
+    font-size: 12px;
+    font-weight: 600;
+    width: 80px;
+  }
+
+  .tablink:hover {
+    background-color: #f0f0f0;
+  }
+
+  /* .tablink:active{
+    color:white;
+  } */
+
+  /* Style the tab content */
+  .tabcontent {
+    color: white;
+    display: none;
+    /* padding: 50px; */
+    width: 140px;
+    text-align: center;
+  }
+
   h1 {
     /* UX/UI Designer + Graphic Designer */
     position: absolute;
