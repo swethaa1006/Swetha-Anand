@@ -12,7 +12,7 @@ h1 {
   /* UX/UI Designer + Graphic Designer */
   position: absolute;
   width: 1173px;
-  height: 1414px;
+  height: 1214px;
   left: 111px;
   top: -50px;
   font-family: Roboto;
@@ -84,10 +84,10 @@ h4 {
 .swetha {
   /* Swetha Anand */
   position: absolute;
-  width: 609.62px;
-  height: 649.56px;
-  left: 442.44px;
-  top: 154px;
+  width: 459.62px;
+  height: auto;
+  left: 222.44px;
+  top: 104px;
 }
 
 .back {
@@ -207,8 +207,8 @@ h4 {
   position: absolute;
   width: 288px;
   height: 288px;
-  left: 207px;
-  top: 128px;
+  left: 707px;
+  top: 308px;
   text-align: center;
   border-radius: 50%;
   color: #FFFFFF;
@@ -221,8 +221,8 @@ h4 {
   position: absolute;
   width: 288px;
   height: 288px;
-  left: 207px;
-  top: 128px;
+  left: 707px;
+  top: 308px;
   color: #F98C0D;
   border-radius: 50%;
   text-align: center;
@@ -344,7 +344,7 @@ a {
   width: 116px;
   height: 116px;
   left: 53px;
-  top: 358px;
+  top: 158px;
   border-radius: 50%;
   color: #FFFFFF;
   background: #277da1;
@@ -356,7 +356,7 @@ a {
   width: 116px;
   height: 116px;
   left: 53px;
-  top: 358px;
+  top: 158px;
   color: #277da1;
   border-radius: 50%;
   text-align: center;
@@ -384,8 +384,8 @@ a {
   position: absolute;
   width: 116px;
   height: 116px;
-  left: 252px;
-  top: 523px;
+  left: 152px;
+  top: 323px;
   border-radius: 50%;
   color: #FFFFFF;
   background: #90be6d;
@@ -396,8 +396,8 @@ a {
   /* other bg */
   width: 116px;
   height: 116px;
-  left: 252px;
-  top: 523px;
+  left: 152px;
+  top: 323px;
   color: #90be6d;
   /* border-radius: 50%; */
   text-align: center;
@@ -474,8 +474,8 @@ a {
   position: absolute;
   width: 160px;
   height: 160px;
-  left: 1171px;
-  top: 889px;
+  left: 971px;
+  top: 689px;
   border-radius: 50%;
   color: #FFFFFF;
   background: #4d908e;
@@ -487,8 +487,8 @@ a {
   position: absolute;
   width: 160px;
   height: 160px;
-  left: 1171px;
-  top: 889px;
+  left: 971px;
+  top: 689px;
   color: #4d908e;
   /* border-radius: 50%; */
   text-align: center;
@@ -517,8 +517,8 @@ a {
   position: absolute;
   width: 227px;
   height: 227px;
-  left: 1024px;
-  top: 1211px;
+  left: 1124px;
+  top: 911px;
   border-radius: 50%;
   color: #FFFFFF;
   background: #f8961e;
@@ -530,8 +530,8 @@ a {
   position: absolute;
   width: 227px;
   height: 227px;
-  left: 1024px;
-  top: 1211px;
+  left: 1124px;
+  top: 911px;
   color: #f8961e;
   /* border-radius: 50%; */
   text-align: center;
@@ -572,12 +572,12 @@ a {
   position: absolute;
   width: 335px;
   height: 159px;
-  left: 451px;
-  top: 720px;
+  left: 580px;
+  top: 850px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 75px;
+  font-size: 55px;
   line-height: 88px;
   text-align: center;
   letter-spacing: -0.003em;
@@ -586,16 +586,16 @@ a {
 
 .ms1 {
   position: absolute;
-  width: 501px;
+  width: 380px;
   height: 390px;
-  left: 382px;
+  left: 552px;
   top: 989px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 900;
-  font-size: 21px;
+  font-weight: 200;
+  font-size: 15px;
   line-height: 25px;
-  text-align: center;
+  text-align: left;
   letter-spacing: -0.003em;
   color: #000000;
 }
